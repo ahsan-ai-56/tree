@@ -7,7 +7,7 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "url": "https://treeidentifier.ai/palm-tree-identifier",
+      "url": "https://treeidentifier.online/palm-tree-identifier",
       "name": "Palm Tree Identifier — Free AI Palm Tree Identification Tool",
       "description": "Identify palm trees instantly with AI. Upload a photo of palm fronds, trunk, or fruit for accurate species identification. Covers Coconut Palm, Date Palm, Royal Palm and 2,600+ species."
     },
@@ -47,7 +47,7 @@ export default function PalmTreeIdentifier() {
       meta={{
         title: 'Palm Tree Identifier — Free AI Palm Tree Identification Online',
         description: 'Identify any palm tree species instantly with AI. Upload palm frond, trunk, or fruit photos. Covers Coconut Palm, Date Palm, Royal Palm and 2,600+ species worldwide. Free and accurate.',
-        canonical: 'https://treeidentifier.ai/palm-tree-identifier',
+        canonical: 'https://treeidentifier.online/palm-tree-identifier',
         schema,
       }}
       breadcrumbs={[{ label: 'Palm Tree Identifier' }]}
