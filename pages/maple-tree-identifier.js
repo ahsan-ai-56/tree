@@ -62,7 +62,7 @@ export default function MapleTreeIdentifier() {
       {/* HERO */}
       <section style={{
         position: 'relative', paddingTop: '70px', minHeight: '75vh', display: 'flex', alignItems: 'center',
-        background: `linear-gradient(135deg, rgba(5,5,5,0.8) 0%, rgba(13,40,24,0.7) 100%), url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(135deg, rgba(5,5,5,0.8) 0%, rgba(13,40,24,0.7) 100%), url('/mapple.jpg') center/cover no-repeat`,
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '4rem 2rem', width: '100%' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
