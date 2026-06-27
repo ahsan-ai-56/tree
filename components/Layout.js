@@ -44,7 +44,8 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
         .dropdown-menu {
           display: none;
           position: absolute;
-          top: calc(100% + 10px);
+          top: 100%;
+          padding-top: 8px;
           left: 50%;
           transform: translateX(-50%);
           background: #0a0a0a;
@@ -67,6 +68,8 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
         .dropdown-menu a:hover { background: #1a4a2e; color: #40c074 !important; }
         .dropdown > a::after { content: ' ▾'; font-size: 0.7rem; opacity: 0.6; }
         @media(max-width:768px){ .dropdown-menu { position: static; transform: none; display: none; box-shadow: none; border: none; background: rgba(26,74,46,0.2); border-radius: 8px; margin-top: 0.5rem; } .dropdown-menu.open { display: block; } }
+      .dropdown:hover .dropdown-menu { display: block; }
+.dropdown-menu:hover { display: block; } 
       `}</style>
 
       <nav className="navbar">
