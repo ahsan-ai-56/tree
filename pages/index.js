@@ -6,22 +6,22 @@ const schema = {
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://treeidentifier.ai/#website",
-      "url": "https://treeidentifier.ai",
+      "@id": "https://treeidentifier.online/#website",
+      "url": "https://treeidentifier.online/",
       "name": "Tree Identifier",
       "description": "AI-powered tree and leaf identification tool",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://treeidentifier.ai/tree-identifier?q={search_term_string}",
+        "target": "https://treeidentifier.online/tree-identifier?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "Organization",
-      "@id": "https://treeidentifier.ai/#organization",
+      "@id": "https://treeidentifier.online/#organization",
       "name": "Tree Identifier",
-      "url": "https://treeidentifier.ai",
-      "logo": "https://treeidentifier.ai/logo.png",
+      "url": "https://treeidentifier.online/",
+      "logo": "https://treeidentifier.online/logo.png",
       "description": "The world's most accurate AI-powered tree identification platform"
     },
     {
@@ -30,7 +30,7 @@ const schema = {
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "Web",
       "description": "Upload a photo of any tree or leaf and get instant AI-powered species identification with detailed botanical information.",
-      "url": "https://treeidentifier.ai/tree-identifier",
+      "url": "https://treeidentifier.online/tree-identifier",
       "offers": {
         "@type": "Offer",
         "price": "0",
