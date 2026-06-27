@@ -10,8 +10,8 @@ const schema = {
   "datePublished": "2025-05-28",
   "dateModified": "2025-05-28",
   "author": { "@type": "Organization", "name": "Tree Identifier" },
-  "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.ai" },
-  "mainEntityOfPage": "https://treeidentifier.ai/blog/common-tree-species"
+  "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.online/" },
+  "mainEntityOfPage": "https://treeidentifier.online//blog/common-tree-species"
 };
 
 const trees = [
@@ -33,7 +33,7 @@ export default function CommonTreeSpecies() {
       meta={{
         title: '25 Most Common Tree Species in North America — Identification Guide | Tree Identifier Blog',
         description: 'Complete guide to the 25 most common tree species in North America. Identification tips for leaves, bark, fruit, and seasonal features for Red Maple, Douglas Fir, White Oak, and more.',
-        canonical: 'https://treeidentifier.ai/blog/common-tree-species',
+        canonical: 'https://treeidentifier.online//blog/common-tree-species',
         schema,
       }}
       breadcrumbs={[{ label: 'Blog', href: '/blog' }, { label: 'Common Tree Species' }]}
