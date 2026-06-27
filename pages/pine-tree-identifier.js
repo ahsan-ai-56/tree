@@ -7,7 +7,7 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "url": "https://treeidentifier.ai/pine-tree-identifier",
+      "url": "https://treeidentifier.online/pine-tree-identifier",
       "name": "Pine Tree Identifier — Free AI Pine Tree Identification Tool",
       "description": "Identify pine trees instantly with AI. Upload a photo of pine needles, cones, or bark. Covers Eastern White Pine, Scots Pine, Ponderosa Pine and 100+ pine species worldwide."
     },
@@ -47,7 +47,7 @@ export default function PineTreeIdentifier() {
       meta={{
         title: 'Pine Tree Identifier — Free AI Pine Tree Identification Online',
         description: 'Identify any pine tree species instantly with AI. Upload pine needles, cones, or bark photos. Covers Eastern White Pine, Scots Pine, Ponderosa Pine and 100+ species worldwide. Free and accurate.',
-        canonical: 'https://treeidentifier.ai/pine-tree-identifier',
+        canonical: 'https://treeidentifier.online/pine-tree-identifier',
         schema,
       }}
       breadcrumbs={[{ label: 'Pine Tree Identifier' }]}
