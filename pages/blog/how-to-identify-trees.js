@@ -10,8 +10,8 @@ const schema = {
   "datePublished": "2025-06-10",
   "dateModified": "2025-06-10",
   "author": { "@type": "Organization", "name": "Tree Identifier" },
-  "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.ai" },
-  "mainEntityOfPage": "https://treeidentifier.ai/blog/how-to-identify-trees"
+  "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.online/" },
+  "mainEntityOfPage": "https://treeidentifier.online//blog/how-to-identify-trees"
 };
 
 export default function HowToIdentifyTrees() {
@@ -20,7 +20,7 @@ export default function HowToIdentifyTrees() {
       meta={{
         title: 'How to Identify Trees — Complete Beginner\'s Guide | Tree Identifier Blog',
         description: 'Learn how to identify any tree using leaves, bark, fruit, seeds, and tree form. Step-by-step guide for beginners covering all tree identification methods with expert tips.',
-        canonical: 'https://treeidentifier.ai/blog/how-to-identify-trees',
+        canonical: 'https://treeidentifier.online//blog/how-to-identify-trees',
         schema,
       }}
       breadcrumbs={[{ label: 'Blog', href: '/blog' }, { label: 'How to Identify Trees' }]}
