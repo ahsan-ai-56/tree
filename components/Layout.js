@@ -10,7 +10,7 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
   const defaultMeta = {
     title: 'Tree Identifier – AI-Powered Tree & Leaf Identification Tool',
     description: 'Identify any tree instantly with AI. Upload a photo of a leaf, bark, or full tree and get accurate species identification, care tips, and detailed botanical information.',
-    canonical: 'https://treeidentifier.ai',
+    canonical: 'https://treeidentifier.online/',
   };
 
   const m = { ...defaultMeta, ...meta };
@@ -27,7 +27,7 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
         <meta property="og:description" content={m.description} />
         <meta property="og:url" content={m.canonical} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://treeidentifier.ai/og-image.jpg" />
+        <meta property="og:image" content="https://treeidentifier.online/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={m.title} />
         <meta name="twitter:description" content={m.description} />
