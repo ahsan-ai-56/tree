@@ -54,7 +54,7 @@ export default function PalmTreeIdentifier() {
     >
       <section style={{
         position: 'relative', paddingTop: '70px', minHeight: '75vh', display: 'flex', alignItems: 'center',
-        background: `linear-gradient(135deg, rgba(5,5,5,0.75) 0%, rgba(10,35,20,0.8) 100%), url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(135deg, rgba(5,5,5,0.75) 0%, rgba(10,35,20,0.8) 100%), url('/treehero.jpg') center/cover no-repeat`,
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '4rem 2rem', width: '100%' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
