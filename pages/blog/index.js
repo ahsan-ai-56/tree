@@ -56,8 +56,11 @@ export default function BlogIndex() {
       {/* HERO */}
       <section style={{
         paddingTop: '70px',
-        background: 'linear-gradient(180deg, var(--dark-green) 0%, var(--black) 100%)',
-        borderBottom: '1px solid var(--card-border)',
+// PURANI:
+background: 'linear-gradient(180deg, var(--dark-green) 0%, var(--black) 100%)',
+
+// NAYE SE BADLO:
+background: `linear-gradient(180deg, rgba(5,5,5,0.7) 0%, rgba(5,5,5,0.9) 100%), url('/tree.jpg') center/cover no-repeat`,        borderBottom: '1px solid var(--card-border)',
         padding: '100px 2rem 4rem',
         textAlign: 'center'
       }}>
