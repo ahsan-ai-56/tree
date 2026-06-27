@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "Blog",
   "name": "Tree Identifier Blog",
-  "url": "https://treeidentifier.ai/blog",
+  "url": "https://treeidentifier.online/blog",
   "description": "Expert guides on tree identification, botanical knowledge, and nature education.",
 };
 
@@ -48,7 +48,7 @@ export default function BlogIndex() {
       meta={{
         title: 'Tree Identification Blog — Expert Guides & Tips | Tree Identifier',
         description: 'Read expert guides on tree identification, leaf morphology, common tree species, and botanical knowledge. Free educational content from Tree Identifier\'s botanical experts.',
-        canonical: 'https://treeidentifier.ai/blog',
+        canonical: 'https://treeidentifier.online/blog',
         schema,
       }}
       breadcrumbs={[{ label: 'Blog' }]}
