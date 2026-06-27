@@ -84,7 +84,7 @@ export default function IdentifyByLeaf() {
         minHeight: '70vh',
         display: 'flex',
         alignItems: 'center',
-        background: `linear-gradient(135deg, rgba(5,5,5,0.8) 0%, rgba(13,40,24,0.7) 50%, rgba(5,5,5,0.9) 100%), url('https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(135deg, rgba(5,5,5,0.8) 0%, rgba(13,40,24,0.7) 50%, rgba(5,5,5,0.9) 100%), url('leaf.jpg') center/cover no-repeat`,
         paddingTop: '70px',
         overflow: 'hidden'
       }}>
