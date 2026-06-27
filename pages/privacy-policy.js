@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Privacy Policy — Tree Identifier",
-  "url": "https://treeidentifier.ai/privacy-policy",
+  "url": "https://treeidentifier.online/privacy-policy",
   "description": "Tree Identifier privacy policy. Learn how we handle your data, photos, and personal information when you use our AI tree identification tool."
 };
 
@@ -52,7 +52,7 @@ Despite these measures, no internet transmission is completely secure. We encour
     title: '8. Your Rights',
     content: `Depending on your location, you may have rights regarding your personal data under laws such as the GDPR (European Union), CCPA (California), or other applicable privacy regulations. These rights may include: the right to access information we hold about you; the right to request deletion of your personal data; the right to object to processing of your personal data; and the right to data portability.
 
-To exercise any of these rights, please contact us at privacy@treeidentifier.ai. Because we collect minimal personal information and store no images, most requests can be fulfilled immediately.`
+To exercise any of these rights, please contact us at privacy@treeidentifier.online. Because we collect minimal personal information and store no images, most requests can be fulfilled immediately.`
   },
   {
     title: '9. Changes to This Privacy Policy',
@@ -60,7 +60,7 @@ To exercise any of these rights, please contact us at privacy@treeidentifier.ai.
   },
   {
     title: '10. Contact Us',
-    content: `If you have questions about this Privacy Policy, want to exercise your data rights, or have concerns about how we handle your information, please contact our privacy team at privacy@treeidentifier.ai. We are committed to resolving privacy concerns promptly and transparently.`
+    content: `If you have questions about this Privacy Policy, want to exercise your data rights, or have concerns about how we handle your information, please contact our privacy team at privacy@treeidentifier.online. We are committed to resolving privacy concerns promptly and transparently.`
   },
 ];
 
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
       meta={{
         title: 'Privacy Policy — Tree Identifier | How We Protect Your Data',
         description: 'Read the Tree Identifier privacy policy. Learn how we handle uploaded photos, personal data, and cookies. We never store your images and never sell your data.',
-        canonical: 'https://treeidentifier.ai/privacy-policy',
+        canonical: 'https://treeidentifier.online/privacy-policy',
         schema,
       }}
       breadcrumbs={[{ label: 'Privacy Policy' }]}
