@@ -7,15 +7,15 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://treeidentifier.ai/tree-identifier",
-      "url": "https://treeidentifier.ai/tree-identifier",
+      "@id": "https://treeidentifier.online/tree-identifier",
+      "url": "https://treeidentifier.online/tree-identifier",
       "name": "Free AI Tree Identifier — Identify Any Tree by Photo",
       "description": "Upload a photo and identify any tree instantly with AI. Get the species name, scientific classification, native region, and detailed botanical information.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.ai" },
-          { "@type": "ListItem", "position": 2, "name": "Tree Identifier", "item": "https://treeidentifier.ai/tree-identifier" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.online" },
+          { "@type": "ListItem", "position": 2, "name": "Tree Identifier", "item": "https://treeidentifier.online/tree-identifier" }
         ]
       }
     },
@@ -69,7 +69,7 @@ export default function TreeIdentifierPage() {
       meta={{
         title: 'Free AI Tree Identifier — Identify Any Tree by Photo Instantly',
         description: 'Upload a tree photo and get instant AI identification. Our free tree identifier covers 50,000+ species including oak, maple, pine, palm, and more. Get species name, scientific info, and care tips.',
-        canonical: 'https://treeidentifier.ai/tree-identifier',
+        canonical: 'https://treeidentifier.online/tree-identifier',
         schema,
       }}
       breadcrumbs={[{ label: 'Tree Identifier' }]}
