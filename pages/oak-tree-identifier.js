@@ -78,7 +78,7 @@ export default function OakTreeIdentifier() {
         minHeight: '75vh',
         display: 'flex',
         alignItems: 'center',
-        background: `linear-gradient(135deg, rgba(5,5,5,0.85) 0%, rgba(13,40,24,0.75) 100%), url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(135deg, rgba(5,5,5,0.85) 0%, rgba(13,40,24,0.75) 100%), url('/oak.jpg') center/cover no-repeat`,
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '4rem 2rem', width: '100%' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
