@@ -84,13 +84,11 @@ background: `linear-gradient(180deg, rgba(5,5,5,0.7) 0%, rgba(5,5,5,0.9) 100%), 
   overflow: 'hidden',
   display: 'grid',
   gridTemplateColumns: '1fr 1fr',
+  minHeight: '420px',          
   alignItems: 'stretch',
   minHeight: '400px',
 }}>
-              <img
-  src={posts[0].image}
-  alt={posts[0].title}
-  style={{ width: '100%', height: '100%', minHeight: '400px', maxHeight: '400px', objectFit: 'cover', objectPosition: 'center' }}
+              <img src={post.image} alt={post.title} style={{ width: '100%', height: '220px', objectFit: 'cover', objectPosition: 'center top' }} />
 />
               <div style={{ padding: '3rem' }}>
                 <span style={{ background: 'rgba(64,192,116,0.1)', color: 'var(--bright-green)', border: '1px solid rgba(64,192,116,0.2)', borderRadius: '50px', padding: '4px 14px', fontSize: '0.78rem', fontWeight: 600 }}>
