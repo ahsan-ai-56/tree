@@ -73,7 +73,7 @@ export default function Home() {
       meta={{
         title: 'Tree Identifier – Free AI Tree & Leaf Identification Tool Online',
         description: 'Identify any tree instantly with our free AI-powered tree identifier. Upload a photo of a leaf, bark, or tree and get the species name, botanical info, and care tips in seconds. Covers 50,000+ species.',
-        canonical: 'https://treeidentifier.ai',
+        canonical: 'https://treeidentifier.online/',
         schema,
       }}
     >
