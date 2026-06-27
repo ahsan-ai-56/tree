@@ -5,12 +5,12 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
   "name": "About Tree Identifier — AI-Powered Tree Identification",
-  "url": "https://treeidentifier.ai/about",
+  "url": "https://treeidentifier.online/about",
   "description": "Learn about Tree Identifier — our mission, technology, and team behind the world's most accurate AI tree identification tool.",
   "mainEntity": {
     "@type": "Organization",
     "name": "Tree Identifier",
-    "description": "AI-powered tree and leaf identification platform serving millions of nature enthusiasts, botanists, and environmental professionals.",
+    "description": "Tree and leaf identification platform serving millions of nature enthusiasts, botanists, and environmental professionals.",
     "foundingDate": "2023",
     "url": "https://treeidentifier.ai"
   }
@@ -36,7 +36,7 @@ export default function About() {
       meta={{
         title: 'About Tree Identifier — Our Mission, Technology & Team',
         description: 'Learn about Tree Identifier — the AI-powered tree identification platform trusted by 2 million users. Discover our mission, technology, and the expert team behind our 97% accurate AI.',
-        canonical: 'https://treeidentifier.ai/about',
+        canonical: 'https://treeidentifier.online/about',
         schema,
       }}
       breadcrumbs={[{ label: 'About Us' }]}
