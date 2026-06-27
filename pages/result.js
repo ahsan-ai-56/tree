@@ -6,7 +6,7 @@ const schema = {
   "@type": "WebPage",
   "name": "Tree Identification Result | Tree Identifier",
   "description": "View your AI-powered tree identification result with species name, scientific classification, habitat information, and care tips.",
-  "url": "https://treeidentifier.ai/result"
+  "url": "https://treeidentifier.online/result"
 };
 
 const sampleResult = {
@@ -39,7 +39,7 @@ export default function ResultPage() {
       meta={{
         title: 'Tree Identification Result — English Oak | Tree Identifier',
         description: 'View a sample AI tree identification result. See how Tree Identifier provides species name, scientific classification, care tips, ecological information, and more.',
-        canonical: 'https://treeidentifier.ai/result',
+        canonical: 'https://treeidentifier.online/result',
         schema,
       }}
       breadcrumbs={[{ label: 'Tree Identifier', href: '/tree-identifier' }, { label: 'Result' }]}
