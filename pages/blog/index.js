@@ -17,7 +17,7 @@ const posts = [
     date: 'June 10, 2025',
     readTime: '8 min read',
     category: 'Tree Identification',
-    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80',
+    image: 'identifytree.jpg',
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
@@ -27,7 +27,7 @@ const posts = [
     date: 'May 28, 2025',
     readTime: '12 min read',
     category: 'Tree Species',
-    image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=800&q=80',
+    image: '/commontree.jpg',
     keywords: ['common tree species', 'North America trees', 'tree species guide'],
   },
   {
@@ -37,7 +37,7 @@ const posts = [
     date: 'May 15, 2025',
     readTime: '10 min read',
     category: 'Leaf Identification',
-    image: 'https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?w=800&q=80',
+    image: '/leaves.jpg',
     keywords: ['tree identification by leaf', 'leaf morphology', 'identify trees by leaves'],
   },
 ];
