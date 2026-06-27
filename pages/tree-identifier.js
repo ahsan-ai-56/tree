@@ -79,7 +79,7 @@ export default function TreeIdentifierPage() {
         position: 'relative',
         paddingTop: '100px',
         paddingBottom: '0',
-        background: `linear-gradient(180deg, rgba(5,5,5,0.7) 0%, var(--black) 100%), url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(180deg, rgba(5,5,5,0.7) 0%, var(--black) 100%), url('scantree.jpg') center/cover no-repeat`,
         borderBottom: '1px solid var(--card-border)'
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '3rem 2rem 0' }}>
