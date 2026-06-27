@@ -477,7 +477,7 @@ a:hover {
   inset: 0;
   background:
     linear-gradient(to bottom, rgba(5,5,5,0.3) 0%, rgba(10,10,10,0.85) 70%, var(--black) 100%),
-    url('/treehero.jpg') center/cover no-repeat;
+    url('/trees.jpg') center/cover no-repeat;
 }
 
 /* STAT BADGES */
