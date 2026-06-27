@@ -10,8 +10,8 @@ const schema = {
   "datePublished": "2025-05-15",
   "dateModified": "2025-05-15",
   "author": { "@type": "Organization", "name": "Tree Identifier" },
-  "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.ai" },
-  "mainEntityOfPage": "https://treeidentifier.ai/blog/tree-identification-by-leaf"
+  "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.online/" },
+  "mainEntityOfPage": "https://treeidentifier.online/blog/tree-identification-by-leaf"
 };
 
 const leafShapes = [
@@ -38,7 +38,7 @@ export default function TreeIdentificationByLeaf() {
       meta={{
         title: 'Tree Identification by Leaf — Expert Leaf Morphology Guide | Tree Identifier Blog',
         description: 'Master tree identification using leaf shape, margin, venation, texture, and arrangement. Expert guide to leaf morphology with tips for identifying any tree species from its leaves.',
-        canonical: 'https://treeidentifier.ai/blog/tree-identification-by-leaf',
+        canonical: 'https://treeidentifier.online/blog/tree-identification-by-leaf',
         schema,
       }}
       breadcrumbs={[{ label: 'Blog', href: '/blog' }, { label: 'Tree ID by Leaf' }]}
