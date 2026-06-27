@@ -7,15 +7,15 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://treeidentifier.ai/identify-tree-by-leaf",
-      "url": "https://treeidentifier.ai/identify-tree-by-leaf",
+      "@id": "https://treeidentifier.online/identify-tree-by-leaf",
+      "url": "https://treeidentifier.online/identify-tree-by-leaf",
       "name": "Identify a Tree by Leaf — Free AI Leaf Identification Tool",
       "description": "Upload a leaf photo and instantly identify the tree species. Our AI analyzes leaf shape, venation, margin, and texture to identify 50,000+ tree species.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.ai" },
-          { "@type": "ListItem", "position": 2, "name": "Identify Tree by Leaf", "item": "https://treeidentifier.ai/identify-tree-by-leaf" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.online/" },
+          { "@type": "ListItem", "position": 2, "name": "Identify Tree by Leaf", "item": "https://treeidentifier.online/identify-tree-by-leaf" }
         ]
       }
     },
@@ -73,7 +73,7 @@ export default function IdentifyByLeaf() {
       meta={{
         title: 'Identify a Tree by Leaf — Free AI Leaf Identification Tool | Tree Identifier',
         description: 'Upload a leaf photo and identify the tree species instantly. Our AI analyzes leaf shape, edges, venation, and texture to identify 50,000+ tree species. Free, fast, and accurate.',
-        canonical: 'https://treeidentifier.ai/identify-tree-by-leaf',
+        canonical: 'https://treeidentifier.online/identify-tree-by-leaf',
         schema,
       }}
       breadcrumbs={[{ label: 'Identify Tree by Leaf' }]}
