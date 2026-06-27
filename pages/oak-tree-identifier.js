@@ -66,7 +66,7 @@ export default function OakTreeIdentifier() {
       meta={{
         title: 'Oak Tree Identifier — Free AI Oak Tree Identification Online',
         description: 'Identify any oak tree species instantly with our free AI tool. Upload a photo of oak leaves, acorns, or bark. Covers all 500+ oak species including Red Oak, White Oak, English Oak & more.',
-        canonical: 'https://treeidentifier.ai/oak-tree-identifier',
+        canonical: 'https://treeidentifier.online/oak-tree-identifier',
         schema,
       }}
       breadcrumbs={[{ label: 'Oak Tree Identifier' }]}
