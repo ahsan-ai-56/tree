@@ -23,6 +23,7 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href={m.canonical} />
+    <meta name="google-site-verification" content="UGrkYJSSXVdju3GVCc34_Ps61b4YNUpEU_WYOKePatU" />
         <meta property="og:title" content={m.title} />
         <meta property="og:description" content={m.description} />
         <meta property="og:url" content={m.canonical} />
