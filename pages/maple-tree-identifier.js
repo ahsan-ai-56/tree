@@ -7,14 +7,14 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "url": "https://treeidentifier.ai/maple-tree-identifier",
+      "url": "https://treeidentifier.online/maple-tree-identifier",
       "name": "Maple Tree Identifier — Free AI Maple Tree Identification Tool",
       "description": "Identify maple trees instantly with AI. Upload a photo of maple leaves, seeds, or bark for accurate species identification. Covers Sugar Maple, Red Maple, Silver Maple and 100+ species.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.ai" },
-          { "@type": "ListItem", "position": 2, "name": "Maple Tree Identifier", "item": "https://treeidentifier.ai/maple-tree-identifier" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.online/" },
+          { "@type": "ListItem", "position": 2, "name": "Maple Tree Identifier", "item": "https://treeidentifier.online/maple-tree-identifier" }
         ]
       }
     },
@@ -54,7 +54,7 @@ export default function MapleTreeIdentifier() {
       meta={{
         title: 'Maple Tree Identifier — Free AI Maple Tree Identification Online',
         description: 'Identify any maple tree species instantly with our free AI tool. Upload a photo of maple leaves, seeds, or bark. Covers Sugar Maple, Red Maple, Japanese Maple, Silver Maple and 100+ species.',
-        canonical: 'https://treeidentifier.ai/maple-tree-identifier',
+        canonical: 'https://treeidentifier.online/maple-tree-identifier',
         schema,
       }}
       breadcrumbs={[{ label: 'Maple Tree Identifier' }]}
