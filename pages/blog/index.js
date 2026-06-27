@@ -56,10 +56,7 @@ export default function BlogIndex() {
       {/* HERO */}
       <section style={{
         paddingTop: '70px',
-// PURANI:
-background: 'linear-gradient(180deg, var(--dark-green) 0%, var(--black) 100%)',
 
-// NAYE SE BADLO:
 background: `linear-gradient(180deg, rgba(5,5,5,0.7) 0%, rgba(5,5,5,0.9) 100%), url('/tree.jpg') center/cover no-repeat`,        borderBottom: '1px solid var(--card-border)',
         padding: '100px 2rem 4rem',
         textAlign: 'center'
@@ -80,19 +77,21 @@ background: `linear-gradient(180deg, rgba(5,5,5,0.7) 0%, rgba(5,5,5,0.9) 100%), 
           {/* FEATURED POST */}
           <div style={{ marginBottom: '4rem' }}>
             <p style={{ color: 'var(--bright-green)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: '1.5rem' }}>Featured Article</p>
-            <div style={{
-              background: 'var(--card-bg)',
-              border: '1px solid var(--card-border)',
-              borderRadius: '20px',
-              overflow: 'hidden',
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-            }}>
+           <div style={{
+  background: 'var(--card-bg)',
+  border: '1px solid var(--card-border)',
+  borderRadius: '20px',
+  overflow: 'hidden',
+  display: 'grid',
+  gridTemplateColumns: '1fr 1fr',
+  alignItems: 'stretch',
+  minHeight: '400px',
+}}>
               <img
-                src={posts[0].image}
-                alt={posts[0].title}
-                style={{ width: '100%', height: '100%', minHeight: '300px', objectFit: 'cover' }}
-              />
+  src={posts[0].image}
+  alt={posts[0].title}
+  style={{ width: '100%', height: '100%', minHeight: '400px', maxHeight: '400px', objectFit: 'cover', objectPosition: 'center' }}
+/>
               <div style={{ padding: '3rem' }}>
                 <span style={{ background: 'rgba(64,192,116,0.1)', color: 'var(--bright-green)', border: '1px solid rgba(64,192,116,0.2)', borderRadius: '50px', padding: '4px 14px', fontSize: '0.78rem', fontWeight: 600 }}>
                   {posts[0].category}
