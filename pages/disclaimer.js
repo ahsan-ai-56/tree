@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Disclaimer — Tree Identifier",
-  "url": "https://treeidentifier.ai/disclaimer",
+  "url": "https://treeidentifier.online/disclaimer",
   "description": "Read the Tree Identifier disclaimer regarding the accuracy of AI-powered tree identification and the appropriate use of our results."
 };
 
@@ -28,7 +28,7 @@ const sections = [
   },
   {
     title: 'Intellectual Property',
-    content: `All content, design, algorithms, and software on treeidentifier.ai are the intellectual property of Tree Identifier and are protected by applicable copyright and intellectual property laws. The botanical data, AI models, and species information compiled in our database represent significant original work and may not be reproduced, scraped, or used to train competing AI systems without written permission.`
+    content: `All content, design, algorithms, and software on treeidentifier.online are the intellectual property of Tree Identifier and are protected by applicable copyright and intellectual property laws. The botanical data, AI models, and species information compiled in our database represent significant original work and may not be reproduced, scraped, or used to train competing AI systems without written permission.`
   },
   {
     title: 'Third-Party Links and Content',
@@ -50,7 +50,7 @@ export default function Disclaimer() {
       meta={{
         title: 'Disclaimer — Tree Identifier AI Tool Terms & Limitations',
         description: 'Read the Tree Identifier disclaimer. Understand the limitations of AI tree identification and how to use our results responsibly, especially for foraging and safety decisions.',
-        canonical: 'https://treeidentifier.ai/disclaimer',
+        canonical: 'https://treeidentifier.online/disclaimer',
         schema,
       }}
       breadcrumbs={[{ label: 'Disclaimer' }]}
