@@ -7,7 +7,7 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "url": "https://treeidentifier.ai/birch-tree-identifier",
+      "url": "https://treeidentifier.online/birch-tree-identifier",
       "name": "Birch Tree Identifier — Free AI Birch Tree Identification Tool",
       "description": "Identify birch trees instantly with AI. Upload a photo of birch bark, leaves, or catkins. Covers Silver Birch, Paper Birch, Yellow Birch and 60+ birch species worldwide."
     },
@@ -47,7 +47,7 @@ export default function BirchTreeIdentifier() {
       meta={{
         title: 'Birch Tree Identifier — Free AI Birch Tree Identification Online',
         description: 'Identify any birch tree species instantly with AI. Upload birch bark, leaf, or catkin photos. Covers Silver Birch, Paper Birch, Yellow Birch and 60+ birch species. Free, fast, and accurate.',
-        canonical: 'https://treeidentifier.ai/birch-tree-identifier',
+        canonical: 'https://treeidentifier.online/birch-tree-identifier',
         schema,
       }}
       breadcrumbs={[{ label: 'Birch Tree Identifier' }]}
