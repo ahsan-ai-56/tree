@@ -7,14 +7,14 @@ const schema = {
   "@graph": [
     {
       "@type": "WebPage",
-      "url": "https://treeidentifier.ai/oak-tree-identifier",
+      "url": "https://treeidentifier.online/oak-tree-identifier",
       "name": "Oak Tree Identifier — Free AI Oak Tree Identification Tool",
       "description": "Identify oak trees instantly with AI. Upload a photo of oak leaves, acorns, or bark and get accurate species identification with detailed botanical information.",
       "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.ai" },
-          { "@type": "ListItem", "position": 2, "name": "Oak Tree Identifier", "item": "https://treeidentifier.ai/oak-tree-identifier" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://treeidentifier.online/" },
+          { "@type": "ListItem", "position": 2, "name": "Oak Tree Identifier", "item": "https://treeidentifier.online/oak-tree-identifier" }
         ]
       }
     },
