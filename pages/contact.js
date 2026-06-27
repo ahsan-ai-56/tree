@@ -6,7 +6,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "name": "Contact Tree Identifier",
-  "url": "https://treeidentifier.ai/contact",
+  "url": "https://treeidentifier.online/contact",
   "description": "Contact the Tree Identifier team for support, partnership inquiries, or feedback about our AI tree identification tool."
 };
 
@@ -33,7 +33,7 @@ export default function Contact() {
       meta={{
         title: 'Contact Us — Tree Identifier Support & Inquiries',
         description: 'Contact the Tree Identifier team for technical support, partnership opportunities, bug reports, or general inquiries. We respond within 24 hours.',
-        canonical: 'https://treeidentifier.ai/contact',
+        canonical: 'https://treeidentifier.online/contact',
         schema,
       }}
       breadcrumbs={[{ label: 'Contact Us' }]}
