@@ -1,149 +1,114 @@
-# 🌳 Tree Identifier — AI-Powered Tree & Leaf Identification
+# 👋 Hi, I'm Muhammad Ahsan
 
-A fully professional, SEO-optimized website that uses **Groq AI** to identify any tree species from a photo in seconds.
+### 🚀 AI Product Builder | BS Artificial Intelligence Student | SEO Specialist
 
-**Live demo URL:** `https://treeidentifier.ai`
+I build AI-powered web applications that solve real-world problems.
 
----
-
-## 🚀 Deploy to Vercel (Step-by-Step)
-
-### Step 1: Upload to GitHub
-1. Create a new GitHub repository (e.g. `tree-identifier`)
-2. Upload all files from this folder to the repository
-3. Push to main branch
-
-### Step 2: Deploy on Vercel
-1. Go to [vercel.com](https://vercel.com) and sign in
-2. Click **"Add New Project"**
-3. Import your GitHub repository
-4. Vercel will auto-detect Next.js — click **Deploy**
-
-### Step 3: Add Your Groq API Key
-1. In Vercel dashboard → go to your project → **Settings → Environment Variables**
-2. Add:
-   - **Name:** `GROQ_API_KEY`
-   - **Value:** `your_groq_api_key_here`
-   - **Environment:** Production, Preview, Development
-3. Click **Save** then **Redeploy**
-
-### Step 4: Get Your Groq API Key
-1. Go to [console.groq.com](https://console.groq.com)
-2. Sign up / Log in
-3. Click **API Keys → Create API Key**
-4. Copy the key and paste it in Vercel environment variables
+My goal is to create modern AI tools that are fast, user-friendly, SEO-optimized, and used by thousands of people worldwide.
 
 ---
 
-## 🛠️ Local Development
+# 🌟 Current AI Projects
 
-```bash
-# Install dependencies
-npm install
+## 🌳 Tree Identifier AI
 
-# Create environment file
-cp .env.local.example .env.local
-# Edit .env.local and add your GROQ_API_KEY
+Identify trees instantly using artificial intelligence.
 
-# Start development server
-npm run dev
-
-# Open http://localhost:3000
-```
+🔗 Live Website:
+https://treeidentifier.online
 
 ---
 
-## 📁 Project Structure
+## 🎬 Random Movie Generator
 
-```
-tree-identifier/
-├── components/
-│   ├── Layout.js          # Navigation, Footer, Breadcrumbs, SEO Head
-│   └── UploadTool.js      # AI image upload & identification component
-├── pages/
-│   ├── _app.js            # App wrapper
-│   ├── index.js           # Home page (SEO + 1000+ words content)
-│   ├── tree-identifier.js # Tree ID tool page (SEO + AI upload)
-│   ├── identify-tree-by-leaf.js  # Leaf ID tool page (SEO + AI upload)
-│   ├── result.js          # Sample result page
-│   ├── about.js           # About us page
-│   ├── contact.js         # Contact form page
-│   ├── disclaimer.js      # Disclaimer page
-│   ├── privacy-policy.js  # Privacy policy page
-│   └── api/
-│       ├── identify.js    # Tree identification API (Groq)
-│       └── leaf-identify.js # Leaf identification API (Groq)
-├── styles/
-│   └── globals.css        # Full black-green theme CSS
-├── public/
-│   ├── sitemap.xml        # SEO sitemap
-│   └── robots.txt         # Search engine crawl rules
-├── package.json
-├── next.config.js
-├── vercel.json
-└── .env.local.example
-```
+Discover random movies based on genre, language, decade, runtime, IMDb rating, and more.
+
+🚧 Currently Improving
 
 ---
 
-## 🎨 Design Theme
+## 🐞 Bug Identifier AI
 
-- **Primary:** Deep black `#0a0a0a` + Forest green `#1a4a2e`
-- **Accent:** Bright green `#40c074`
-- **Typography:** Playfair Display (headings) + Inter (body)
-- **Hero backgrounds:** Real tree forest photography (Unsplash)
+Identify insects and bugs instantly using AI.
 
----
-
-## 🔍 SEO Features
-
-- ✅ Unique meta title + description on every page
-- ✅ Schema.org structured data (WebSite, Organization, SoftwareApplication, FAQPage, HowTo, BreadcrumbList)
-- ✅ Open Graph + Twitter Card tags
-- ✅ Canonical URLs
-- ✅ XML Sitemap
-- ✅ robots.txt
-- ✅ 1000+ word SEO content on Home, Tree Identifier, and Leaf Identifier pages
-- ✅ Internal linking throughout all pages
-- ✅ Breadcrumb navigation
+🚧 Coming Soon
 
 ---
 
-## 🤖 AI Model
+# 🛠 Tech Stack
 
-Uses **Groq's Llama 4 Scout** vision model (`meta-llama/llama-4-scout-17b-16e-instruct`) for:
-- Tree species identification from photos
-- Leaf morphology analysis
-- Structured JSON output with confidence scoring
+### Artificial Intelligence
+
+- AI APIs
+- Prompt Engineering
+- Image Recognition
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- REST APIs
+
+### SEO
+
+- Technical SEO
+- On-Page SEO
+- Core Web Vitals
+- Schema Markup
+- Google Search Console
+
+### Deployment
+
+- Vercel
+- GitHub
 
 ---
 
-## 📄 Pages
+# 🎯 What I'm Currently Building
 
-| Page | Route | Features |
-|------|-------|---------|
-| Home | `/` | Hero with forest BG, features, how-it-works, 1000+ words SEO content |
-| Tree Identifier | `/tree-identifier` | AI upload tool, tips, tree types, 1000+ words content |
-| Leaf Identifier | `/identify-tree-by-leaf` | Leaf-optimized AI tool, leaf types, seasonal tips, 1000+ words |
-| Result | `/result` | Sample identification result display |
-| About | `/about` | Team, mission, technology, milestones |
-| Contact | `/contact` | Contact form, FAQ section |
-| Disclaimer | `/disclaimer` | Safety warnings, legal terms |
-| Privacy Policy | `/privacy-policy` | GDPR-compliant privacy policy |
+- 🌳 Tree Identifier
+- 🐞 Bug Identifier
+- 🌿 Plant Identifier
+- 🍄 Mushroom Identifier
+- 🦋 Butterfly Identifier
+- 🐦 Bird Identifier
+- 🎬 Random Movie Generator
 
----
-
-## ✅ Checklist Before Going Live
-
-- [ ] Add `GROQ_API_KEY` to Vercel environment variables
-- [ ] Update domain in `Layout.js` (replace `treeidentifier.ai` with your domain)
-- [ ] Update domain in `sitemap.xml`
-- [ ] Update canonical URLs in all pages
-- [ ] Add a real `favicon.ico` to `/public/`
-- [ ] Add `og-image.jpg` (1200x630px) to `/public/`
-- [ ] Update contact email in `contact.js` and `privacy-policy.js`
-- [ ] Submit sitemap to Google Search Console
+More AI tools are coming soon...
 
 ---
 
-Built with ❤️ using Next.js 14, Groq AI, and pure CSS.
+# 📚 Currently Learning
+
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Large Language Models (LLMs)
+- Full Stack AI Development
+
+---
+
+# 🌍 My Goal
+
+Build one of the largest collections of AI-powered web tools that help people solve everyday problems.
+
+---
+
+# 📫 Connect With Me
+
+💼 LinkedIn
+
+https://linkedin.com/in/muhammad-ahsan-558099406
+
+
+
+⭐ If you like my projects, consider giving them a star.
