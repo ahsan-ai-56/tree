@@ -30,6 +30,14 @@ const posts = [
     image: '/commontree.jpg',
     keywords: ['common tree species', 'North America trees', 'tree species guide'],
   },
+  { 
+  slug: 'tree-identification-by-bark',
+  title: 'Tree Identification by Bark — Complete Visual Guide',
+  description: 'Learn how to identify trees by their bark year-round...',
+  date: 'July 18, 2026',
+  readTime: '14 min read',
+  category: 'Bark Identification'
+},
   {
     slug: 'tree-identification-by-leaf',
     title: 'Tree Identification by Leaf — Expert Guide to Leaf Morphology',
