@@ -46,7 +46,7 @@ const posts = [
   date: 'July 18, 2026',
   readTime: '15 min read',
   category: 'Winter Tree ID',
-  image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800&q=80',
+  image: 'winter.jpg',
   keywords: ['how to identify trees in winter', 'winter tree identification', 'identify trees without leaves'],
 },
   {
