@@ -40,6 +40,16 @@ const posts = [
   category: 'Bark Identification'
   },
   {
+  slug: 'how-to-identify-trees-in-winter',
+  title: 'How to Identify Trees in Winter — Complete Bare Tree Guide',
+  excerpt: 'Learn how to identify trees in winter without leaves using bark, silhouette, buds, and persistent fruits. Includes 10 easy winter trees and AI identification tips that work year-round.',
+  date: 'July 18, 2026',
+  readTime: '15 min read',
+  category: 'Winter Tree ID',
+  image: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=800&q=80',
+  keywords: ['how to identify trees in winter', 'winter tree identification', 'identify trees without leaves'],
+},
+  {
     slug: 'tree-identification-by-leaf',
     title: 'Tree Identification by Leaf — Expert Guide to Leaf Morphology',
     excerpt: 'Master tree identification using leaf characteristics. Learn leaf shape, margin, venation, texture, and arrangement — the six key features botanists use to identify any tree species.',
