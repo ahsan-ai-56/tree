@@ -36,8 +36,9 @@ const posts = [
   description: 'Learn how to identify trees by their bark year-round...',
   date: 'July 18, 2026',
   readTime: '14 min read',
+  image: '/bark.jpg',
   category: 'Bark Identification'
-},
+  },
   {
     slug: 'tree-identification-by-leaf',
     title: 'Tree Identification by Leaf — Expert Guide to Leaf Morphology',
