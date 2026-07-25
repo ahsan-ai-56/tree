@@ -37,27 +37,28 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama-3.2-90b-vision-preview',
-        max_tokens: 1000,
-        messages: [
-          {
-            role: 'user',
-            content: [
-              {
-                type: 'image_url',
-                image_url: {
-                  url: `data:${mimeType};base64,${image}`,
-                },
-              },
-              {
-                type: 'text',
-                text: prompt,
-              },
-            ],
+  model: 'qwen/qwen3.6-27b',
+  temperature: 1,
+  max_tokens: 1000,
+  response_format: { type: "json_object" },
+  messages: [
+    {
+      role: 'user',
+      content: [
+        {
+          type: 'image_url',
+          image_url: {
+            url: `data:${mimeType};base64,${image}`,
           },
-        ],
-      }),
-    });
+        },
+        {
+          type: 'text',
+          text: prompt,
+        },
+      ],
+    },
+  ],
+}),
 
     const data = await response.json();
 
