@@ -44,7 +44,7 @@ If you cannot identify the tree with reasonable confidence, set confidence below
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+        model: 'meta-llama/llama-4-maverick-17b-128e-instruct',
         max_tokens: 1000,
         messages: [
           {
