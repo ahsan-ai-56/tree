@@ -13,22 +13,6 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'API key not configured' });
   }
 
-  const prompt = `You are an expert botanist. Analyze this tree image and respond ONLY with a valid JSON object, no markdown, no extra text:
-{
-  "commonName": "Common name",
-  "scientificName": "Genus species",
-  "family": "Plant family",
-  "nativeRegion": "Geographic origin",
-  "treeType": "Deciduous/Evergreen/Coniferous",
-  "height": "Typical height range",
-  "leafType": "Leaf description",
-  "conservationStatus": "IUCN status",
-  "confidence": 90,
-  "description": "2-3 sentence description",
-  "careTips": "2-3 sentences about care",
-  "uses": "2-3 sentences about uses"
-}`;
-
   try {
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
@@ -40,7 +24,12 @@ export default async function handler(req, res) {
         model: 'qwen/qwen3.6-27b',
         temperature: 1,
         max_tokens: 1000,
+        response_format: { type: 'json_object' },
         messages: [
+          {
+            role: 'system',
+            content: 'You are an expert botanist. Always respond with valid JSON only. No markdown, no backticks.',
+          },
           {
             role: 'user',
             content: [
@@ -52,7 +41,7 @@ export default async function handler(req, res) {
               },
               {
                 type: 'text',
-                text: prompt,
+                text: 'Identify this tree. Return JSON: {"commonName":"","scientificName":"","family":"","nativeRegion":"","treeType":"","height":"","leafType":"","conservationStatus":"","confidence":90,"description":"","careTips":"","uses":""}',
               },
             ],
           },
@@ -64,7 +53,7 @@ export default async function handler(req, res) {
 
     if (!response.ok) {
       console.error('Groq API error:', JSON.stringify(data));
-      return res.status(502).json({ error: `Groq error: ${data?.error?.message || 'Unknown'}` });
+      return res.status(502).json({ error: data?.error?.message || 'Groq error' });
     }
 
     const text = data.choices?.[0]?.message?.content || '';
@@ -86,7 +75,7 @@ export default async function handler(req, res) {
 
   } catch (err) {
     console.error('Identification error:', err.message);
-    return res.status(500).json({ error: 'Failed to identify tree. Please try again.' });
+    return res.status(500).json({ error: 'Failed to identify tree.' });
   }
 }
 
