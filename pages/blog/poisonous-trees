@@ -13,7 +13,7 @@ const schema = {
       "dateModified": "2026-07-25",
       "author": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.online/" },
       "publisher": { "@type": "Organization", "name": "Tree Identifier", "url": "https://treeidentifier.online/" },
-      "mainEntityOfPage": "https://treeidentifier.online/blog/poisonous-trees-to-avoid",
+      "mainEntityOfPage": "https://treeidentifier.online/blog/poisonous-trees",
       "keywords": "poisonous trees, toxic trees, dangerous trees, trees to avoid, poisonous tree berries, toxic tree sap, poisonous trees North America, trees toxic to dogs, trees toxic to humans, manchineel tree, oleander tree, poison sumac tree, yew tree poisonous, black walnut toxic"
     },
     {
