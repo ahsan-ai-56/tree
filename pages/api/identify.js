@@ -46,6 +46,7 @@ If you cannot identify the tree with reasonable confidence, set confidence below
       body: JSON.stringify({
         model: 'qwen/qwen3.6-27b',
         max_tokens: 1000,
+        response_format: { type: "json_object" },
         messages: [
           {
             role: 'user',
