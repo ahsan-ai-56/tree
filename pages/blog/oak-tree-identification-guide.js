@@ -260,7 +260,7 @@ export default function OakTreeIdentificationGuide() {
     >
       {/* HERO */}
       <section style={{
-        background: `linear-gradient(180deg, rgba(5,5,5,0.75) 0%, var(--black) 100%), url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(180deg, rgba(5,5,5,0.75) 0%, var(--black) 100%), url('oaktree.jpg') center/cover no-repeat`,
         padding: '120px 2rem 5rem',
       }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
