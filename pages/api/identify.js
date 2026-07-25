@@ -29,35 +29,43 @@ export default async function handler(req, res) {
   "uses": "2-3 sentences about uses"
 }`;
 
-  body: JSON.stringify({
-  model: 'qwen/qwen3.6-27b',
-  temperature: 1,
-  max_tokens: 1000,
-  response_format: { type: "json_object" },
-  messages: [
-    {
-      role: 'user',
-      content: [
-        {
-          type: 'image_url',
-          image_url: {
-            url: `data:${mimeType};base64,${image}`,
+  try {
+    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'qwen/qwen3.6-27b',
+        temperature: 1,
+        max_tokens: 1000,
+        response_format: { type: 'json_object' },
+        messages: [
+          {
+            role: 'user',
+            content: [
+              {
+                type: 'image_url',
+                image_url: {
+                  url: `data:${mimeType};base64,${image}`,
+                },
+              },
+              {
+                type: 'text',
+                text: prompt,
+              },
+            ],
           },
-        },
-        {
-          type: 'text',
-          text: prompt,
-        },
-      ],
-    },
-  ],
-}),
+        ],
+      }),
+    });
 
     const data = await response.json();
 
     if (!response.ok) {
       console.error('Groq API error:', JSON.stringify(data));
-      return res.status(502).json({ error: `Groq error: ${data?.error?.message || 'Unknown error'}` });
+      return res.status(502).json({ error: `Groq error: ${data?.error?.message || 'Unknown'}` });
     }
 
     const text = data.choices?.[0]?.message?.content || '';
@@ -71,7 +79,6 @@ export default async function handler(req, res) {
       if (match) {
         result = JSON.parse(match[0]);
       } else {
-        console.error('Parse error, raw response:', cleaned);
         return res.status(500).json({ error: 'Could not parse AI response' });
       }
     }
