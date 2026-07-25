@@ -21,7 +21,7 @@ const posts = [
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
-  slug: 'poisonous-trees-to-avoid',
+  slug: 'poisonous-trees',
   title: 'Poisonous Trees to Avoid — Complete Safety & Identification Guide',
   excerpt: 'Discover the most dangerous poisonous trees and how to identify them safely. A complete guide covering toxic species, warning signs, symptoms, and safety tips for hikers, parents, and nature lovers.',
   date: 'July 26, 2026',
