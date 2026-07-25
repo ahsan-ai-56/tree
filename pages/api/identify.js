@@ -40,7 +40,6 @@ export default async function handler(req, res) {
         model: 'qwen/qwen3.6-27b',
         temperature: 1,
         max_tokens: 1000,
-        response_format: { type: 'json_object' },
         messages: [
           {
             role: 'user',
