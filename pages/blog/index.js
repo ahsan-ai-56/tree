@@ -30,6 +30,16 @@ const posts = [
     image: '/commontree.jpg',
     keywords: ['common tree species', 'North America trees', 'tree species guide'],
   },
+  {
+  slug: 'oak-tree-identification-guide',
+  title: 'Oak Tree Identification Guide — Leaf, Bark & Acorn',
+  excerpt: 'Complete oak tree identification guide covering 10 major oak species. Learn to identify oak trees by leaf shape, bark texture, and acorn type. Includes White Oak vs Red Oak comparison.',
+  date: 'July 19, 2026',
+  readTime: '16 min read',
+  category: 'Oak Identification',
+  image: 'oaktree.jpg',
+  keywords: ['oak tree identification', 'how to identify oak trees', 'oak tree identifier'],
+},
   { 
   slug: 'tree-identification-by-bark',
   title: 'Tree Identification by Bark — Complete Visual Guide',
