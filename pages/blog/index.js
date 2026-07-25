@@ -21,6 +21,16 @@ const posts = [
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
+  slug: 'poisonous-trees-to-avoid',
+  title: 'Poisonous Trees to Avoid — Complete Safety & Identification Guide',
+  excerpt: 'Discover the most dangerous poisonous trees and how to identify them safely. A complete guide covering toxic species, warning signs, symptoms, and safety tips for hikers, parents, and nature lovers.',
+  date: 'July 26, 2026',
+  readTime: '9 min read',
+  category: 'Tree Safety',
+  image: 'poisonoustrees.jpg',
+  keywords: ['poisonous trees', 'toxic trees identification', 'dangerous trees to avoid', 'poisonous tree safety guide'],
+},
+  {
     slug: 'common-tree-species',
     title: '25 Most Common Tree Species in North America — Full Identification Guide',
     excerpt: 'A complete visual guide to the 25 most common tree species found across North America, with identification tips for leaves, bark, fruit, and seasonal features.',
