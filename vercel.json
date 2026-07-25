@@ -4,6 +4,6 @@
   "devCommand": "next dev",
   "installCommand": "npm install",
   "env": {
-    "GROQ_API_KEY": "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"
+    "GROQ_API_KEY": "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"
   }
 }
