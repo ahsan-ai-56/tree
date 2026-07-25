@@ -7,7 +7,7 @@ const schema = [
     "@type": "Article",
     "headline": "Oak Tree Identification Guide — How to Identify Oak Trees by Leaf, Bark, and Acorn",
     "description": "Complete oak tree identification guide covering all major oak species. Learn to identify oak trees by leaf shape, bark texture, acorn type, and seasonal features with expert tips.",
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    "image": "oaktree.jpg",
     "datePublished": "2026-07-19",
     "dateModified": "2026-07-19",
     "author": { "@type": "Organization", "name": "Tree Identifier" },
