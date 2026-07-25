@@ -29,14 +29,7 @@ export default async function handler(req, res) {
   "uses": "2-3 sentences about uses"
 }`;
 
-  try {
-    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
+  body: JSON.stringify({
   model: 'qwen/qwen3.6-27b',
   temperature: 1,
   max_tokens: 1000,
