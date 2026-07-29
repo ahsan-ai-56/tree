@@ -21,6 +21,16 @@ const posts = [
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
+  slug: 'identify-tree-by-leaves',
+  title: 'How to Identify a Tree by Its Leaves — Complete Visual Guide',
+  excerpt: 'Learn how to identify any tree by its leaves using shape, margin, arrangement, and texture. 6-step visual guide with 20+ tree examples and free AI leaf identifier.',
+  date: 'July 22, 2026',
+  readTime: '12 min read',
+  category: 'Leaf Identification',
+  image: 'leaves.jpg',
+  keywords: ['identify tree by leaves', 'tree leaf identification', 'how to identify tree by leaf'],
+},
+  {
   slug: 'poisonous-trees',
   title: 'Poisonous Trees to Avoid — Complete Safety & Identification Guide',
   excerpt: 'Discover the most dangerous poisonous trees and how to identify them safely. A complete guide covering toxic species, warning signs, symptoms, and safety tips for hikers, parents, and nature lovers.',
