@@ -25,6 +25,7 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
         <link rel="canonical" href={m.canonical} />
     <meta name="google-site-verification" content="UGrkYJSSXVdju3GVCc34_Ps61b4YNUpEU_WYOKePatU" />
         <meta property="og:title" content={m.title} />
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="CsQi5Wt82yVMwheSCINxRw" async></script>
         <meta property="og:description" content={m.description} />
         <meta property="og:url" content={m.canonical} />
         <meta property="og:type" content="website" />
