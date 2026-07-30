@@ -37,7 +37,7 @@ const posts = [
   date: 'July 28, 2026',
   readTime: '12 min read',
   category: 'Leaf Identification',
-  image: 'leaves.jpg',
+  image: 'leavess.jpg',
   keywords: ['identify tree by leaves', 'tree leaf identification', 'how to identify tree by leaf'],
 },
   {
