@@ -279,7 +279,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="maple2.jpg"
+                src="/maple2.jpg"
                 alt="Sugar maple and red maple leaves side by side showing sinus shape differences"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -315,7 +315,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="maple3.jpg"
+                src="/maple3.jpg"
                 alt="Maple tree helicopter seeds samaras close up identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -337,7 +337,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 4 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="maple4.jpg"
+                src="/maple4.jpg"
                 alt="Maple trees in autumn showing brilliant orange and red fall colors"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
