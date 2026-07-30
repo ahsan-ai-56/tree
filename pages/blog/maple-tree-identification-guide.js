@@ -279,7 +279,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="maple2.jpg"
                 alt="Sugar maple and red maple leaves side by side showing sinus shape differences"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -315,7 +315,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=900&q=80"
+                src="maple3.jpg"
                 alt="Maple tree helicopter seeds samaras close up identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -337,7 +337,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 4 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80"
+                src="maple4.jpg"
                 alt="Maple trees in autumn showing brilliant orange and red fall colors"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
