@@ -217,7 +217,7 @@ export default function ElmTreeIdentifier() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=900&q=80"
+                src="/elm.jpg"
                 alt="Elm tree leaves showing asymmetric base and doubly serrated margins for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -247,7 +247,7 @@ export default function ElmTreeIdentifier() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80"
+                src="elm2.jpg"
                 alt="Elm tree bark showing distinctive ridge pattern for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
