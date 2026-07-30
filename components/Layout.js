@@ -93,8 +93,9 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
               <Link href="/pine-tree-identifier" onClick={() => setMenuOpen(false)}>🌲 Pine Tree Identifier</Link>
               <Link href="/palm-tree-identifier" onClick={() => setMenuOpen(false)}>🌴 Palm Tree Identifier</Link>
               <Link href="/birch-tree-identifier" onClick={() => setMenuOpen(false)}>🪵 Birch Tree Identifier</Link>
+              <Link href="/elm-tree-identifier" onClick={() => setMenuOpen(false)}>🪵 Elm Tree Identifier</Link>
             </div>
-          </li>
+          </li>           
 
           <li className="dropdown">
             <Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
