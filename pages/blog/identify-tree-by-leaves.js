@@ -120,7 +120,7 @@ export default function IdentifyTreeByLeaves() {
     >
       {/* HERO */}
       <section style={{
-        background: `linear-gradient(180deg, rgba(5,5,5,0.70) 0%, var(--black) 100%), url('https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=1600&q=80') center/cover no-repeat`,
+        background: `linear-gradient(180deg, rgba(5,5,5,0.70) 0%, var(--black) 100%), url('leaves1.jpg') center/cover no-repeat`,
         padding: '120px 2rem 5rem',
       }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
@@ -154,7 +154,7 @@ export default function IdentifyTreeByLeaves() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=900&q=80"
+                src="leaves1.jpg"
                 alt="Various tree leaves showing different shapes and colors for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
