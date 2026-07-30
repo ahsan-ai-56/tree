@@ -244,7 +244,7 @@ export default function MapleTreeIdentificationGuide() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="mapletree.jpg"
+                src="/mapletree.jpg"
                 alt="Maple tree leaves showing opposite arrangement and lobed shape for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
