@@ -254,6 +254,28 @@ export default function Home() {
                 Our database includes all major tree species found across North America, Europe, Asia, Africa, Australia, and South America. Common species include oaks (Quercus), maples (Acer), elms (Ulmus), pines (Pinus), spruces (Picea), firs (Abies), birches (Betula), beeches (Fagus), cedars (Cedrus), willows (Salix), palms (Arecaceae), eucalyptus, magnolias, and thousands more. We also cover fruit trees like apple, pear, cherry, peach, and walnut, as well as ornamental and street tree species commonly planted in urban environments.
               </p>
 
+              <h2>Explore Our Tree Identification Tools</h2>
+<p>We offer dedicated identification tools for the most commonly searched tree species. Each tool is optimized with species-specific AI training for maximum accuracy:</p>
+<ul>
+  <li><Link href="/oak-tree-identifier">Oak Tree Identifier</Link> — Identify all 500+ oak species by leaf, bark, and acorn</li>
+  <li><Link href="/maple-tree-identifier">Maple Tree Identifier</Link> — Identify Sugar Maple, Red Maple, Silver Maple and more</li>
+  <li><Link href="/elm-tree-identifier">Elm Tree Identifier</Link> — Identify American Elm, Chinese Elm, Slippery Elm and more</li>
+  <li><Link href="/pine-tree-identifier">Pine Tree Identifier</Link> — Identify pine species by needle count and cone shape</li>
+  <li><Link href="/birch-tree-identifier">Birch Tree Identifier</Link> — Identify birch species by their distinctive bark</li>
+  <li><Link href="/palm-tree-identifier">Palm Tree Identifier</Link> — Identify palm species worldwide</li>
+</ul>
+
+<h2>Learn Tree Identification — Our Expert Blog</h2>
+<p>Our blog covers everything you need to become a confident tree identifier:</p>
+<ul>
+  <li><Link href="/blog/maple-tree-identification-guide">Maple Tree Identification Guide</Link> — Sugar Maple vs Red Maple and more</li>
+  <li><Link href="/blog/identify-tree-by-leaves">How to Identify Trees by Leaves</Link> — Complete 6-step visual guide</li>
+  <li><Link href="/blog/oak-tree-identification-guide">Oak Tree Identification Guide</Link> — All major oak species covered</li>
+  <li><Link href="/blog/how-to-identify-trees-in-winter">How to Identify Trees in Winter</Link> — Bark, buds, and silhouette</li>
+  <li><Link href="/blog/tree-identification-by-bark">Tree Identification by Bark</Link> — Year-round identification guide</li>
+  <li><Link href="/blog/common-tree-species">25 Most Common Tree Species</Link> — North America complete guide</li>
+</ul>
+
               <h2>Tips for Getting the Best Tree Identification Results</h2>
               <p>
                 To maximize identification accuracy, follow these simple photography guidelines. Always photograph leaves in good natural daylight — avoid harsh shadows or direct midday sun that can wash out colors. Lay the leaf flat on a neutral background like white paper or concrete for the clearest shape analysis. Capture the leaf from directly above rather than at an angle. For bark identification, photograph a square section of bark at eye level from about 30 centimeters away. For full-tree identification, step back far enough to capture the entire canopy shape and branching pattern. The more detail your photo captures, the higher the AI's confidence score will be.
