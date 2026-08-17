@@ -7,7 +7,7 @@ const schema = [
     "@type": "Article",
     "headline": "Trees With Heart Shaped Leaves — Complete Identification Guide",
     "description": "Discover trees with heart shaped leaves including large trees, small trees, and varieties with serrated edges. Complete visual guide with identification tips for all heart-leaved tree species.",
-    "image": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=1200&q=80",
+    "image": "/heart-shaped-leaves.jpg",
     "datePublished": "2026-07-25",
     "dateModified": "2026-07-25",
     "author": { "@type": "Organization", "name": "Tree Identifier" },
