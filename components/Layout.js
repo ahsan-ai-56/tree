@@ -92,8 +92,9 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
               <Link href="/maple-tree-identifier" onClick={() => setMenuOpen(false)}>🍁 Maple Tree Identifier</Link>
               <Link href="/pine-tree-identifier" onClick={() => setMenuOpen(false)}>🌲 Pine Tree Identifier</Link>
               <Link href="/palm-tree-identifier" onClick={() => setMenuOpen(false)}>🌴 Palm Tree Identifier</Link>
-              <Link href="/birch-tree-identifier" onClick={() => setMenuOpen(false)}>🪵 Birch Tree Identifier</Link>
-              <Link href="/elm-tree-identifier" onClick={() => setMenuOpen(false)}>🪵 Elm Tree Identifier</Link>
+              <Link href="/birch-tree-identifier" onClick={() => setMenuOpen(false)}>🌳 Birch Tree Identifier</Link>
+              <Link href="/elm-tree-identifier" onClick={() => setMenuOpen(false)}>🌲 Elm Tree Identifier</Link>
+              <Link href="/fruit-tree-identifier" onClick={() => setMenuOpen(false)}>🌰 Fruit Tree Identifier</Link>            
             </div>
           </li>           
 
