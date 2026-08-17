@@ -462,7 +462,7 @@ export default function TreesWithHeartShapedLeaves() {
             {/* IMAGE 4 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80"
+                src="/heart-leaves.jpg"
                 alt="Collection of heart shaped tree leaves from different species"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
