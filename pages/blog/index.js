@@ -41,6 +41,16 @@ const posts = [
   keywords: ['identify tree by leaves', 'tree leaf identification', 'how to identify tree by leaf'],
 },
   {
+  slug: 'trees-with-heart-shaped-leaves',
+  title: 'Trees With Heart Shaped Leaves — Complete Identification Guide',
+  excerpt: 'Discover the most common trees with heart shaped leaves and learn how to identify them by leaf shape, bark, fruit, and size. A complete visual guide for nature lovers and gardeners.',
+  date: 'August 18, 2026',
+  readTime: '9 min read',
+  category: 'Tree Identification',
+  image: 'heart-shaped-leaves.jpg',
+  keywords: ['trees with heart shaped leaves', 'heart shaped leaf tree identification', 'identify trees by leaf shape'],
+},
+  {
   slug: 'poisonous-trees',
   title: 'Poisonous Trees to Avoid — Complete Safety & Identification Guide',
   excerpt: 'Discover the most dangerous poisonous trees and how to identify them safely. A complete guide covering toxic species, warning signs, symptoms, and safety tips for hikers, parents, and nature lovers.',
