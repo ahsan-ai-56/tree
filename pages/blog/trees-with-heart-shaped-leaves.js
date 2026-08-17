@@ -393,7 +393,7 @@ export default function TreesWithHeartShapedLeaves() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="/heart.jpg"
                 alt="Eastern Redbud tree with heart shaped leaves and pink spring flowers"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
