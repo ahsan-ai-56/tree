@@ -255,7 +255,7 @@ export default function WillowTreeGuide() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=900&q=80"
+                src="/willow.jpg"
                 alt="Weeping willow tree with drooping branches near water for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -333,7 +333,7 @@ export default function WillowTreeGuide() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="/wilow-tree.jpg"
                 alt="Willow tree leaves close up showing narrow lance shaped leaves for identification"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
