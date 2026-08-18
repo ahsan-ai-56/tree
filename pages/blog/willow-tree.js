@@ -7,7 +7,7 @@ const schema = [
     "@type": "Article",
     "headline": "Willow Tree Guide — Weeping Willow, Pussy Willow, and All Willow Species Identified",
     "description": "Complete willow tree guide covering weeping willow, pussy willow, Babylonica weeping willow, oak willow, and all major willow species. Identification tips, growing information, and expert advice.",
-    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+    "image": "/willow-tree.jpg",
     "datePublished": "2026-08-18",
     "dateModified": "2026-08-18",
     "author": { "@type": "Organization", "name": "Tree Identifier" },
@@ -282,17 +282,6 @@ export default function WillowTreeGuide() {
             <p>The true Babylon weeping willow was brought from China to Europe via the Silk Road in the 17th and 18th centuries and became enormously fashionable in European gardens. Napoleon Bonaparte was said to have been particularly fond of weeping willows at his residence on Saint Helena, where a large Salix babylonica grew near his grave — cuttings from this tree were distributed worldwide and played a role in popularizing weeping willows in ornamental horticulture.</p>
             <p><em>Salix babylonica</em> is distinguished from the hybrid weeping willows most commonly planted today by being less cold-hardy (not suitable for climates colder than USDA Zone 6), having slightly less pendulous branches than the hybrid 'Chrysocoma', and producing mainly female trees in cultivation. In warmer climates — the southern United States, the Mediterranean, and subtropical regions — true <em>Salix babylonica</em> is still widely planted and thrives.</p>
 
-            {/* IMAGE 2 */}
-            <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
-              <img
-                src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=900&q=80"
-                alt="Pussy willow catkins in early spring - soft silvery fuzzy catkins on branches"
-                style={{ width: '100%', height: '280px', objectFit: 'cover' }}
-              />
-              <div style={{ background: 'var(--card-bg)', padding: '0.8rem 1.2rem' }}>
-                <p style={{ color: 'var(--gray-mid)', fontSize: '0.82rem', margin: 0 }}>🐱 Pussy willow catkins are among the most beloved signs of spring — silky soft silver catkins appear in late winter while snow may still be on the ground, providing early-season pollen for bees.</p>
-              </div>
-            </div>
 
             <h2>Pussy Willow — The First Sign of Spring</h2>
             <p>Pussy willow (<em>Salix discolor</em> in North America, <em>Salix caprea</em> in Europe) is one of the most beloved trees of late winter and early spring. Its silky soft silvery catkins — the original "pussy willows" — appear on bare branches in late February or March, sometimes while snow is still on the ground, making them one of the earliest and most welcome signs of spring in temperate regions.</p>
