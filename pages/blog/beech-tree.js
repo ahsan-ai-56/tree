@@ -246,17 +246,7 @@ export default function BeechTreeGuide() {
             <p>European Beech closely resembles American Beech but has several distinguishing features: slightly smaller leaves (4-9cm) with a wavy rather than toothed margin, fewer pairs of veins (5-9 compared to 9-14 in American Beech), and slightly smaller beechnuts. European Beech forms a denser canopy than American Beech, casting such deep shade that virtually no understory plants can survive beneath mature beech forest — the forest floor beneath a closed beech canopy is carpeted only with beech leaf litter, moss, and shade-tolerant ferns.</p>
             <p>European Beech forests — called <em>Buchenwälder</em> in German — are among the most celebrated natural landscapes in Europe. The Hainich National Park in Germany, the Bialowieza Forest in Poland/Belarus, and the beech forests of the Carpathians are UNESCO World Heritage Sites recognized for their ecological and scenic value. In Britain, the beech woods of the Chiltern Hills and the New Forest are iconic landscapes.</p>
 
-            {/* IMAGE 2 */}
-            <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
-              <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
-                alt="Beech tree leaves showing oval shape and parallel veins for identification"
-                style={{ width: '100%', height: '280px', objectFit: 'cover' }}
-              />
-              <div style={{ background: 'var(--card-bg)', padding: '0.8rem 1.2rem' }}>
-                <p style={{ color: 'var(--gray-mid)', fontSize: '0.82rem', margin: 0 }}>🍃 Beech tree leaves are oval with prominent parallel veins running from the midrib to each tooth or wavy point on the leaf margin — this ribbed vein pattern is the most reliable leaf identification feature.</p>
-              </div>
-            </div>
+            
 
             <h2>Tricolor Beech Tree — The Most Ornamental Beech</h2>
             <p>Tricolor beech (<em>Fagus sylvatica</em> 'Roseomarginata', also sold as 'Purpurea Tricolor') is one of the most spectacular ornamental trees available to gardeners — a cultivar of European Beech with leaves that display three distinct colors simultaneously throughout the growing season. The leaf center is deep purple-maroon, transitioning to an irregular zone of pink to rose-red, with white to very pale pink at the outer margin — creating a stunning multi-colored effect unlike any other common ornamental tree.</p>
