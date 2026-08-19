@@ -7,7 +7,7 @@ const schema = [
     "@type": "Article",
     "headline": "Beech Tree Complete Guide — American Beech, European Beech, Beech Nuts & Disease",
     "description": "Complete beech tree guide covering American beech, European beech, Fagus grandifolia, Fagus sylvatica, tricolor beech, beech nuts, beech tree disease, beech wood, and beech leaf identification.",
-    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=80",
+    "image": "/beech-tree.jpg",
     "datePublished": "2026-08-20",
     "dateModified": "2026-08-20",
     "author": { "@type": "Organization", "name": "Tree Identifier" },
@@ -223,7 +223,7 @@ export default function BeechTreeGuide() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80"
+                src="/beech-tree1.jpg"
                 alt="American beech tree showing smooth silvery gray bark for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -272,7 +272,7 @@ export default function BeechTreeGuide() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=900&q=80"
+                src="/beech-tree2.jpg"
                 alt="Beech forest with copper autumn leaves showing seasonal beech tree identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
