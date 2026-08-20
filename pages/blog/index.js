@@ -31,6 +31,16 @@ const posts = [
   keywords: ['maple tree identification', 'how to identify maple trees', 'maple tree identifier'],
 },
   {
+  slug: 'poplar-tree',
+  title: 'Poplar Tree Guide — Types of Poplar Trees, Identification, and Growing Tips',
+  excerpt: 'Complete guide to poplar trees covering all major types including Lombardy, Eastern Cottonwood, and White Poplar. Learn how to identify poplar trees by leaves, bark, and shape plus expert growing tips.',
+  date: 'August 18, 2026',
+  readTime: '9 min read',
+  category: 'Tree Identification',
+  image: 'poplar-tree.jpg',
+  keywords: ['poplar tree', 'types of poplar trees', 'poplar tree identification', 'lombardy poplar', 'poplar tree growing tips'],
+},
+  {
   slug: 'identify-tree-by-leaves',
   title: 'How to Identify a Tree by Its Leaves — Complete Visual Guide',
   excerpt: 'Learn how to identify any tree by its leaves using shape, margin, arrangement, and texture. 6-step visual guide with 20+ tree examples and free AI leaf identifier.',
