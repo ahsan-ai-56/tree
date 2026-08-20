@@ -247,7 +247,7 @@ export default function PoplarTreeGuide() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=900&q=80"
+                src="poplar-tree1.jpg"
                 alt="Poplar trees showing tall columnar form and trembling leaves for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -303,7 +303,7 @@ export default function PoplarTreeGuide() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="poplar-tree2.jpg"
                 alt="Tulip poplar leaves showing distinctive 4-lobed shape for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
