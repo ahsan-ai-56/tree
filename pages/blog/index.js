@@ -21,16 +21,6 @@ const posts = [
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
-  slug: 'maple-tree-identification-guide',
-  title: 'Maple Tree Identification Guide — Leaf, Bark & Seed',
-  excerpt: 'Complete maple tree identification guide covering Sugar Maple, Red Maple, Silver Maple and 5 more species. Learn to identify maple trees by leaf shape, sinus depth, bark, and helicopter seeds.',
-  date: 'July 29, 2026',
-  readTime: '14 min read',
-  category: 'Maple Identification',
-  image: 'maple.jpg',
-  keywords: ['maple tree identification', 'how to identify maple trees', 'maple tree identifier'],
-},
-  {
   slug: 'poplar-tree',
   title: 'Poplar Tree Guide — Types of Poplar Trees, Identification, and Growing Tips',
   excerpt: 'Complete guide to poplar trees covering all major types including Lombardy, Eastern Cottonwood, and White Poplar. Learn how to identify poplar trees by leaves, bark, and shape plus expert growing tips.',
@@ -39,6 +29,16 @@ const posts = [
   category: 'Tree Identification',
   image: 'poplar-tree.jpg',
   keywords: ['poplar tree', 'types of poplar trees', 'poplar tree identification', 'lombardy poplar', 'poplar tree growing tips'],
+},
+  {
+  slug: 'maple-tree-identification-guide',
+  title: 'Maple Tree Identification Guide — Leaf, Bark & Seed',
+  excerpt: 'Complete maple tree identification guide covering Sugar Maple, Red Maple, Silver Maple and 5 more species. Learn to identify maple trees by leaf shape, sinus depth, bark, and helicopter seeds.',
+  date: 'July 29, 2026',
+  readTime: '14 min read',
+  category: 'Maple Identification',
+  image: 'maple.jpg',
+  keywords: ['maple tree identification', 'how to identify maple trees', 'maple tree identifier'],
 },
   {
   slug: 'identify-tree-by-leaves',
