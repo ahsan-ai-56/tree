@@ -24,7 +24,7 @@ const posts = [
   slug: 'poplar-tree',
   title: 'Poplar Tree Guide — Types of Poplar Trees, Identification, and Growing Tips',
   excerpt: 'Complete guide to poplar trees covering all major types including Lombardy, Eastern Cottonwood, and White Poplar. Learn how to identify poplar trees by leaves, bark, and shape plus expert growing tips.',
-  date: 'August 18, 2026',
+  date: 'August 20, 2026',
   readTime: '9 min read',
   category: 'Tree Identification',
   image: 'poplar-tree.jpg',
