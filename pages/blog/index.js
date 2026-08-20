@@ -4,7 +4,7 @@ import Link from 'next/link';
 const schema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "name": "Tree Identifier Blog",
+  "name": "Tree Identifier Blog", 
   "url": "https://treeidentifier.online/blog",
   "description": "Expert guides on tree identification, botanical knowledge, and nature education.",
 };
