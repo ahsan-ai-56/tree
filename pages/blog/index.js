@@ -31,6 +31,28 @@ const posts = [
   keywords: ['poplar tree', 'types of poplar trees', 'poplar tree identification', 'lombardy poplar', 'poplar tree growing tips'],
 },
   {
+  slug: 'mulberry-tree-identification',
+  title: 'Mulberry Tree Identification — White Mulberry, Red Mulberry, Black Mulberry & Complete Guide',
+  excerpt: 'Complete mulberry tree identification guide covering White, Red, Black and Pakistan Mulberry, including leaves, bark, berries, tree characteristics, uses, care, and common problems.',
+  date: 'August 21, 2026',
+  readTime: '15 min read',
+  category: 'Tree Identification',
+  image: 'mulberry-tree.jpg',
+  keywords: [
+    'mulberry tree',
+    'mulberry tree identification',
+    'white mulberry tree',
+    'red mulberry tree',
+    'black mulberry tree',
+    'pakistan mulberry',
+    'mulberry tree leaves',
+    'mulberry berries',
+    'mulberry tree care',
+    'mulberry tree disease'
+  ],
+
+},
+  {
   slug: 'maple-tree-identification-guide',
   title: 'Maple Tree Identification Guide — Leaf, Bark & Seed',
   excerpt: 'Complete maple tree identification guide covering Sugar Maple, Red Maple, Silver Maple and 5 more species. Learn to identify maple trees by leaf shape, sinus depth, bark, and helicopter seeds.',
