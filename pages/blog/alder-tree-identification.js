@@ -223,7 +223,7 @@ export default function AlderTreeIdentification() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80"
+                src="/alder-tree1.jpg"
                 alt="Alder tree growing beside river showing distinctive woody cone strobiles for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -274,7 +274,7 @@ export default function AlderTreeIdentification() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=900&q=80"
+                src="/alder-tree2.jpg"
                 alt="Alder tree leaves showing rounded tip and toothed margin for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
