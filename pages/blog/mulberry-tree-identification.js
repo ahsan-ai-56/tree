@@ -235,7 +235,7 @@ export default function MulberryTreeIdentification() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=900&q=80"
+                src="/mulberry-tree1.jpg"
                 alt="Mulberry tree fruit showing ripe mulberries for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -276,7 +276,7 @@ export default function MulberryTreeIdentification() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=900&q=80"
+                src="/mulberry-tree2.jpg"
                 alt="Mulberry tree leaves showing variable leaf shapes on same tree for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -328,7 +328,7 @@ export default function MulberryTreeIdentification() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1528825871115-3581a5387919?w=900&q=80"
+                src="/mulberry-tree3.jpg"
                 alt="Mulberry tree bark showing furrowed orange-brown texture for identification"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
