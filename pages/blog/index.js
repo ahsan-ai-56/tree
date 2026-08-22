@@ -21,6 +21,16 @@ const posts = [
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
+  slug: 'alder-tree-identification',
+  title: 'Alder Tree Identification — Complete Guide to Species, Leaves & Uses',
+  excerpt: 'Learn how to identify alder trees by their distinctive catkins, dark bark, and toothed leaves. Complete guide covering common alder species, habitat, uses, and ecological importance.',
+  date: 'August 22, 2026',
+  readTime: '8 min read',
+  category: 'Tree Identification',
+  image: 'alder-tree.jpg',
+  keywords: ['alder tree identification', 'alder tree', 'types of alder trees', 'black alder', 'red alder tree'],
+},
+  {
   slug: 'poplar-tree',
   title: 'Poplar Tree Guide — Types of Poplar Trees, Identification, and Growing Tips',
   excerpt: 'Complete guide to poplar trees covering all major types including Lombardy, Eastern Cottonwood, and White Poplar. Learn how to identify poplar trees by leaves, bark, and shape plus expert growing tips.',
