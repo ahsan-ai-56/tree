@@ -229,7 +229,7 @@ export default function LindenTreeIdentification() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=900&q=80"
+                src="/linden-tree-identify.jpg"
                 alt="Linden tree leaves showing heart-shaped leaves and toothed margins for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -269,7 +269,7 @@ export default function LindenTreeIdentification() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1528825871115-3581a5387919?w=900&q=80"
+                src="/linden.jpg"
                 alt="Linden tree flowers with distinctive strap-like bract for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -319,7 +319,7 @@ export default function LindenTreeIdentification() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="/linden-tree-identification.jpg"
                 alt="Silver linden tree leaves showing silvery white underside for identification"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
