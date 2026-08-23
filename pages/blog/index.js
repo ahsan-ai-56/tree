@@ -31,6 +31,16 @@ const posts = [
   keywords: ['alder tree identification', 'alder tree', 'types of alder trees', 'black alder', 'red alder tree'],
 },
   {
+  slug: 'linden-tree-identification',
+  title: 'Linden Tree Identification — Complete Guide to Species, Flowers & Uses',
+  excerpt: 'Learn how to identify linden trees by their heart-shaped leaves, fragrant flowers, and distinctive bracts. Complete guide covering common linden species, habitat, medicinal uses, and ecological importance.',
+  date: 'August 22, 2026',
+  readTime: '8 min read',
+  category: 'Tree Identification',
+  image: 'linden-tree.jpg',
+  keywords: ['linden tree identification', 'linden tree', 'types of linden trees', 'american linden', 'basswood tree identification'],
+},
+  {
   slug: 'poplar-tree',
   title: 'Poplar Tree Guide — Types of Poplar Trees, Identification, and Growing Tips',
   excerpt: 'Complete guide to poplar trees covering all major types including Lombardy, Eastern Cottonwood, and White Poplar. Learn how to identify poplar trees by leaves, bark, and shape plus expert growing tips.',
