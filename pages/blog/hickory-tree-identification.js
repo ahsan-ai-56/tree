@@ -235,7 +235,7 @@ export default function HickoryTreeIdentification() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80"
+                src="hickory-tree1.jpg"
                 alt="Shagbark hickory tree showing dramatic shaggy peeling bark for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -332,7 +332,7 @@ export default function HickoryTreeIdentification() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80"
+                src="hickory-tree2.jpg"
                 alt="Hickory nuts on ground showing 4-sectioned husk for identification"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
