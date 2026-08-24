@@ -21,6 +21,16 @@ const posts = [
     keywords: ['how to identify trees', 'tree identification guide', 'identify trees by leaves'],
   },
   {
+  slug: 'hickory-tree-identification',
+  title: 'Hickory Tree Identification — Shagbark Hickory, Bitternut, Pignut & Complete Guide',
+  excerpt: 'Complete hickory tree identification guide covering shagbark hickory (Carya ovata), bitternut hickory (Carya cordiformis), pignut hickory, mockernut hickory, hickory leaves, bark, nuts, and wood.',
+  date: 'August 24, 2026',
+  readTime: '12 min read',
+  category: 'Tree Identification',
+  image: 'hickory-tree.jpg',
+  keywords: ['hickory tree identification', 'hickory tree', 'types of hickory trees', 'black hickory'],
+},
+  {
   slug: 'alder-tree-identification',
   title: 'Alder Tree Identification — Complete Guide to Species, Leaves & Uses',
   excerpt: 'Learn how to identify alder trees by their distinctive catkins, dark bark, and toothed leaves. Complete guide covering common alder species, habitat, uses, and ecological importance.',
