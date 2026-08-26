@@ -41,6 +41,16 @@ const posts = [
   keywords: ['alder tree identification', 'alder tree', 'types of alder trees', 'black alder', 'red alder tree'],
 },
   {
+  slug: 'fast-growing-trees',
+  title: 'Fast Growing Trees — Best Species for Privacy, Shade & Landscaping',
+  excerpt: 'Discover the fastest growing trees for your garden, yard, or landscape. Complete guide covering best fast growing trees for privacy, shade, and screening with growth rates, care tips, and species recommendations.',
+  date: 'August 25, 2026',
+  readTime: '9 min read',
+  category: 'Tree Guide',
+  image: 'fast-growing-trees.jpg',
+  keywords: ['fast growing trees', 'fastest growing trees', 'fast growing trees for privacy', 'fast growing shade trees', 'fast growing trees for landscaping'],
+},
+  {
   slug: 'linden-tree-identification',
   title: 'Linden Tree Identification — Complete Guide to Species, Flowers & Uses',
   excerpt: 'Learn how to identify linden trees by their heart-shaped leaves, fragrant flowers, and distinctive bracts. Complete guide covering common linden species, habitat, medicinal uses, and ecological importance.',
