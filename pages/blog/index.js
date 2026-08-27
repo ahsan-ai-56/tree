@@ -31,6 +31,16 @@ const posts = [
   keywords: ['hickory tree identification', 'hickory tree', 'types of hickory trees', 'black hickory'],
 },
   {
+  slug: 'trees-with-white-bark',
+  title: 'Trees With White Bark — Paper Birch, Sycamore, Aspen & Complete Identification Guide',
+  excerpt: 'Complete guide to trees with white bark including Paper Birch (Betula papyrifera), white birch, Sycamore, Aspen, and all white barked trees. Covers peeling bark, smooth bark, bark identification, and types of tree bark.',
+  date: 'August 27, 2026',
+  readTime: '14 min read',
+  category: 'Tree Guide',
+  image: 'trees-with-white-bark.jpg',
+  keywords: ['trees-with-white-bark', 'white bark tree', 'paper birch', 'betula papyrifera', 'white birch'],
+},
+  {
   slug: 'alder-tree-identification',
   title: 'Alder Tree Identification — Complete Guide to Species, Leaves & Uses',
   excerpt: 'Learn how to identify alder trees by their distinctive catkins, dark bark, and toothed leaves. Complete guide covering common alder species, habitat, uses, and ecological importance.',
