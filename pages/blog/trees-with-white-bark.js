@@ -271,7 +271,7 @@ export default function TreesWithWhiteBark() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80"
+                src="trees-with-white-bark1.jpg"
                 alt="Paper birch trees showing brilliant white peeling bark for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -301,7 +301,7 @@ export default function TreesWithWhiteBark() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=900&q=80"
+                src="trees-with-white-bark2.jpg"
                 alt="Quaking aspen trees with smooth creamy white bark for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -361,7 +361,7 @@ export default function TreesWithWhiteBark() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=900&q=80"
+                src="trees-with-white-bark3.jpg"
                 alt="Different types of tree bark showing white peeling and textured bark examples"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
