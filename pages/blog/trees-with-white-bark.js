@@ -5,7 +5,7 @@ const schema = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Trees With White Bark — Paper Birch, Sycamore, Aspen & Complete Identification Guide",
+    "headline": "Trees With White Bark — Paper Birch & Complete Identification Guide",
     "description": "Complete guide to trees with white bark including Paper Birch (Betula papyrifera), white birch, Sycamore, Aspen, and all white barked trees. Covers peeling bark, smooth bark, bark identification, and types of tree bark.",
     "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80",
     "datePublished": "2026-08-26",
