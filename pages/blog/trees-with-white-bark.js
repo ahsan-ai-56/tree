@@ -225,7 +225,7 @@ export default function TreesWithWhiteBark() {
   return (
     <Layout
       meta={{
-        title: 'Trees With White Bark — Paper Birch, Aspen, Sycamore & White Bark Tree ID Guide | Tree Identifier',
+        title: 'Trees With White Bark — Paper Birch & Complete ID Guide | Tree Identifier',
         description: 'Complete guide to trees with white bark including Paper Birch (Betula papyrifera), White Birch, Aspen, Sycamore, and more. Covers peeling bark, smooth bark, types of bark, and peeling bark tree identification.',
         canonical: 'https://treeidentifier.online/blog/trees-with-white-bark',
         schema,
