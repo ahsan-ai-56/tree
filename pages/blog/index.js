@@ -44,7 +44,7 @@ const posts = [
   slug: 'trees-with-white-flowers',
   title: 'Trees With White Flowers — ID Guide & Best Species',
   excerpt: 'Discover the most beautiful trees with white flowers and learn how to identify them by bloom shape, leaf type, and season. Complete guide covering dogwood, cherry, magnolia, and more white flowering tree species.',
-  date: 'August 28, 2026',
+  date: 'August 25, 2026',
   readTime: '8 min read',
   category: 'Tree Identification',
   image: 'trees-with-white-flowers.jpg',
