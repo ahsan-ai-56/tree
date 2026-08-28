@@ -5,7 +5,7 @@ const schema = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Trees With White Flowers — Spring Flowering Trees, Cherry Blossom, Dogwood & Complete Guide",
+    "headline": "Trees With White Flowers — Spring Flowering Trees & Complete Guide",
     "description": "Complete guide to trees with white flowers including white cherry blossom, dogwood, magnolia, pear, serviceberry, and more. Covers spring flowering trees, pink flower trees, flowering peach, and ornamental trees.",
     "image": "https://images.unsplash.com/photo-1528825871115-3581a5387919?w=1200&q=80",
     "datePublished": "2026-08-27",
