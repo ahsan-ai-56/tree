@@ -261,7 +261,7 @@ export default function TreesWithWhiteFlowers() {
   return (
     <Layout
       meta={{
-        title: 'Trees With White Flowers — Spring Flowering Trees, Cherry Blossom, Dogwood & Complete Guide | Tree Identifier',
+        title: 'Trees With White Flowers — Spring Flowering Trees & Complete Guide | Tree Identifier',
         description: 'Complete guide to trees with white flowers including flowering dogwood, white cherry blossom, magnolia, serviceberry, Bradford pear, and more. Covers spring flowering trees, pink flower trees, and ornamental landscape trees.',
         canonical: 'https://treeidentifier.online/blog/trees-with-white-flowers',
         schema,
