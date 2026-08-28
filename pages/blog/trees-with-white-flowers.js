@@ -307,7 +307,7 @@ export default function TreesWithWhiteFlowers() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1528825871115-3581a5387919?w=900&q=80"
+                src="/trees-with-white-flowers1.jpg"
                 alt="White cherry blossom tree in full bloom for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -338,7 +338,7 @@ export default function TreesWithWhiteFlowers() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80"
+                src="/trees-with-white-flowers2.jpg"
                 alt="Flowering dogwood tree with white bracts in spring bloom"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
@@ -378,7 +378,7 @@ export default function TreesWithWhiteFlowers() {
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="/trees-with-white-flowers3.jpg"
                 alt="Pink and white flowering trees in spring landscape"
                 style={{ width: '100%', height: '260px', objectFit: 'cover' }}
               />
