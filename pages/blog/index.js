@@ -52,7 +52,7 @@ const posts = [
 },
   {
   slug: 'pine-tree-identification',
-  title: 'Pine Tree Identification — Types, Needles, Cones & Complete Guide',
+  title: 'Pine Tree Identification — White Pine, Eastern White Pine, Types of Pine Trees & Complete Guide',
   excerpt: 'Complete guide to pine tree identification covering all major pine species. Learn to identify pine trees by needle count, cone shape, bark texture, and size. Covers Eastern White Pine, Ponderosa, Scots Pine, and more.',
   date: 'August 26, 2026',
   readTime: '10 min read',
