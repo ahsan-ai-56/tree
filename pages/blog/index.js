@@ -51,6 +51,16 @@ const posts = [
   keywords: ['trees with white flowers', 'white flowering trees', 'white flower tree identification', 'dogwood tree', 'white magnolia tree'],
 },
   {
+  slug: 'pine-tree-identification',
+  title: 'Pine Tree Identification — Types, Needles, Cones & Complete Guide',
+  excerpt: 'Complete guide to pine tree identification covering all major pine species. Learn to identify pine trees by needle count, cone shape, bark texture, and size. Covers Eastern White Pine, Ponderosa, Scots Pine, and more.',
+  date: 'August 26, 2026',
+  readTime: '10 min read',
+  category: 'Tree Identification',
+  image: 'pine-tree-identification.jpg',
+  keywords: ['pine tree identification', 'types of pine trees', 'identify pine tree by needles', 'pine cone identification', 'eastern white pine', 'ponderosa pine identification'],
+},
+  {
   slug: 'alder-tree-identification',
   title: 'Alder Tree Identification — Complete Guide to Species, Leaves & Uses',
   excerpt: 'Learn how to identify alder trees by their distinctive catkins, dark bark, and toothed leaves. Complete guide covering common alder species, habitat, uses, and ecological importance.',
