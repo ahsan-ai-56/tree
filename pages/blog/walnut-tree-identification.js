@@ -175,7 +175,7 @@ export default function WalnutTreeIdentification() {
   return (
     <Layout
       meta={{
-        title: 'Walnut Tree Identification — Walnut Tree Leaves, Black Walnut, English Walnut & Complete Guide | Tree Identifier',
+        title: 'Walnut Tree Identification — Walnut Tree Leaves, Black Walnut',
         description: 'Complete walnut tree identification by leaves, bark, and nuts. Covers walnut tree leaves images, black walnut tree leaves identification, English walnut tree leaves, walnut tree bark identification, and all types of walnut trees.',
         canonical: 'https://treeidentifier.online/blog/walnut-tree-identification',
         schema,
