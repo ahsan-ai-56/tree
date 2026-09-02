@@ -222,7 +222,7 @@ export default function WalnutTreeIdentification() {
             {/* IMAGE 1 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80"
+                src="/walnut-tree-identification1.jpg"
                 alt="Walnut tree leaves showing large compound leaves with multiple leaflets for identification"
                 style={{ width: '100%', height: '300px', objectFit: 'cover' }}
               />
@@ -262,7 +262,7 @@ export default function WalnutTreeIdentification() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=900&q=80"
+                src="/walnut-tree-identification2.jpg"
                 alt="Black walnut tree bark showing deeply furrowed diamond pattern for identification"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
