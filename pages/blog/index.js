@@ -51,6 +51,16 @@ const posts = [
   keywords: ['trees with white flowers', 'white flowering trees', 'white flower tree identification', 'dogwood tree', 'white magnolia tree'],
 },
   {
+  slug: 'walnut-tree-identification',
+  title: 'Walnut Tree Identification — Walnut Tree Leaves, Black Walnut',
+  excerpt: 'Complete guide to walnut tree identification covering Black Walnut and English Walnut species. Learn to identify walnut trees by their large compound leaves, deeply furrowed bark, and round green husked nuts.',
+  date: 'August 26, 2026',
+  readTime: '9 min read',
+  category: 'Tree Identification',
+  image: 'walnut-tree-identification.jpg',
+  keywords: ['walnut tree identification', 'black walnut tree', 'walnut tree leaves', 'english walnut tree', 'walnut tree bark', 'black walnut identification'],
+},
+  {
   slug: 'pine-tree-identification',
   title: 'Pine Tree Identification — White Pine, Eastern White Pine, Types of Pine Trees & Complete Guide',
   excerpt: 'Complete guide to pine tree identification covering all major pine species. Learn to identify pine trees by needle count, cone shape, bark texture, and size. Covers Eastern White Pine, Ponderosa, Scots Pine, and more.',
