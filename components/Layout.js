@@ -39,6 +39,8 @@ export default function Layout({ children, meta = {}, breadcrumbs = [] }) {
         {m.schema && (
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(m.schema) }} />
         )}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3401933613888257"
+     crossorigin="anonymous"></script>
       </Head>
 
       <style>{`
