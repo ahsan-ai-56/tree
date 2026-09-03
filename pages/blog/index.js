@@ -61,6 +61,16 @@ const posts = [
   keywords: ['walnut tree identification', 'black walnut tree', 'walnut tree leaves', 'english walnut tree', 'walnut tree bark', 'black walnut identification'],
 },
   {
+  slug: 'trees-with-thorns',
+  title: 'Trees With Thorns — Complete Identification Guide for Thorny Trees',
+  excerpt: 'Identify thorny trees with confidence. Complete guide covering the most common trees with thorns including Honey Locust, Hawthorn, Osage Orange, Black Locust, and more — with leaf, bark, and thorn identification tips.',
+  date: 'August 26, 2026',
+  readTime: '9 min read',
+  category: 'Tree Identification',
+  image: 'trees-with-thorns.jpg',
+  keywords: ['trees with thorns', 'thorny trees identification', 'trees with spines', 'honey locust tree', 'hawthorn tree identification', 'identify thorny tree'],
+},
+  {
   slug: 'pine-tree-identification',
   title: 'Pine Tree Identification — White Pine, Eastern White Pine, Types of Pine Trees & Complete Guide',
   excerpt: 'Complete guide to pine tree identification covering all major pine species. Learn to identify pine trees by needle count, cone shape, bark texture, and size. Covers Eastern White Pine, Ponderosa, Scots Pine, and more.',
