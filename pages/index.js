@@ -153,7 +153,7 @@ export default function Home() {
                 🍃 Identify by Leaf
               </Link>
             </div>
-                  <AdBanner /> <AdBanner />
+                  <AdBanner /> 
 
             <div className="stats-row">
               <div className="stat-badge"><div className="num">50K+</div><div className="lbl">Tree Species</div></div>
