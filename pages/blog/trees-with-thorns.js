@@ -271,7 +271,7 @@ export default function TreesWithThorns() {
   return (
     <Layout
       meta={{
-        title: 'Trees With Thorns — Complete Identification Guide for Thorny Trees | Tree Identifier',
+        title: 'Trees With Thorns — Complete Identification Guide for Thorny Trees',
         description: 'Complete guide to trees with thorns including trees with big thorns, thorns on trunk, thorns on branches, lemon tree thorns, orange tree thorns, pear tree thorns, and thorny trees in Texas. Expert identification tips.',
         canonical: 'https://treeidentifier.online/blog/trees-with-thorns',
         schema,
