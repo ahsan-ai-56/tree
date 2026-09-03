@@ -125,6 +125,22 @@ export default function Home() {
 />
 <script src="//www.highperformanceformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js"></script>
 
+  <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      atOptions = {
+        'key' : '1f78faba42fc4bd9013f27b8c835a7ae',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    `
+  }}
+/>
+<script src="https://www.highrevenueformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js"></script>
+
+
             <p style={{ fontSize: '1.2rem', color: 'rgba(255,255,255,0.8)', maxWidth: '580px', lineHeight: 1.8, marginBottom: '2.5rem' }}>
               Upload a photo of any tree, leaf, or bark and our advanced AI identifies the species in seconds. Free, accurate, and covers 50,000+ tree species worldwide.
             </p>
