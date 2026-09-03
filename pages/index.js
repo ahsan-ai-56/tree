@@ -1,4 +1,5 @@
 import Layout from '../components/Layout';
+import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 
 const schema = {
@@ -66,6 +67,33 @@ const faqs = [
   { q: 'Is Tree Identifier free to use?', a: 'Yes! Tree Identifier is completely free to use. Simply upload a photo and get instant AI-powered identification with no registration required.' },
   { q: 'How many tree species can it identify?', a: 'Our database covers over 50,000 species of trees, shrubs, and woody plants from around the world, including native, exotic, and endangered species.' },
 ];
+function AdBanner() {
+  const adRef = useRef(null);
+
+  useEffect(() => {
+    if (!adRef.current) return;
+    adRef.current.innerHTML = '';
+
+    const conf1 = document.createElement('script');
+    conf1.type = 'text/javascript';
+    conf1.innerHTML = `
+      atOptions = {
+        'key' : '1f78faba42fc4bd9013f27b8c835a7ae',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+      };
+    `;
+    const src1 = document.createElement('script');
+    src1.src = '//www.highperformanceformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js';
+    src1.async = true;
+
+    adRef.current.appendChild(conf1);
+    adRef.current.appendChild(src1);
+  }, []);
+
+  return <div ref={adRef} style={{ minHeight: '250px', minWidth: '300px' }} />;
+}
 
 export default function Home() {
   return (
@@ -111,36 +139,8 @@ export default function Home() {
               Identify Any Tree<br />
               <span style={{ color: 'var(--bright-green)' }}>Instantly with AI</span>
             </h1>
-                <script
-  dangerouslySetInnerHTML={{
-    __html: `
-      atOptions = {
-        'key' : '1f78faba42fc4bd9013f27b8c835a7ae',
-        'format' : 'iframe',
-        'height' : 250,
-        'width' : 300,
-      };
-    `
-  }}
-/>
-<script src="//www.highperformanceformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js"></script>
-
-  <script
-  dangerouslySetInnerHTML={{
-    __html: `
-      atOptions = {
-        'key' : '1f78faba42fc4bd9013f27b8c835a7ae',
-        'format' : 'iframe',
-        'height' : 250,
-        'width' : 300,
-        'params' : {}
-      };
-    `
-  }}
-/>
-<script src="https://www.highrevenueformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js"></script>
-
-
+                                <AdBanner />
+                
             <p style={{ fontSize: '1.2rem', color: 'rgba(255,255,255,0.8)', maxWidth: '580px', lineHeight: 1.8, marginBottom: '2.5rem' }}>
               Upload a photo of any tree, leaf, or bark and our advanced AI identifies the species in seconds. Free, accurate, and covers 50,000+ tree species worldwide.
             </p>
