@@ -31,6 +31,16 @@ const posts = [
   keywords: ['hickory tree identification', 'hickory tree', 'types of hickory trees', 'black hickory'],
 },
   {
+  slug: 'ash-tree-identification',
+  title: 'Ash Tree Identification — White Ash, Green Ash, Bark & Leaf Guide',
+  excerpt: 'Complete guide to ash tree identification covering White Ash, Green Ash, and other species. Learn to identify ash trees by their opposite compound leaves, diamond-patterned bark, and paddle-shaped seeds.',
+  date: 'August 27, 2026',
+  readTime: '9 min read',
+  category: 'Tree Identification',
+  image: 'ash-tree-identification.jpg',
+  keywords: ['ash tree identification', 'white ash tree', 'green ash tree', 'ash tree leaves', 'ash tree bark', 'how to identify ash tree'],
+},
+  {
   slug: 'trees-with-white-bark',
   title: 'Trees With White Bark — Paper Birch, Sycamore, Aspen & Complete Identification Guide',
   excerpt: 'Complete guide to trees with white bark including Paper Birch (Betula papyrifera), white birch, Sycamore, Aspen, and all white barked trees. Covers peeling bark, smooth bark, bark identification, and types of tree bark.',
