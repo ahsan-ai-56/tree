@@ -41,6 +41,16 @@ const posts = [
   keywords: ['ash tree identification', 'white ash tree', 'green ash tree', 'ash tree leaves', 'ash tree bark', 'how to identify ash tree'],
 },
   {
+  slug: 'swamp-oak-tree-identification',
+  title: 'Swamp Oak Tree Identification — Swamp White Oak, Swamp Chestnut Oak & Complete Guide',
+  excerpt: 'Complete guide to swamp oak tree identification covering Swamp White Oak, Swamp Chestnut Oak, and Pin Oak. Learn to identify swamp oaks by their distinctive lobed leaves, acorns, and wetland habitat preferences.',
+  date: 'August 27, 2026',
+  readTime: '9 min read',
+  category: 'Tree Identification',
+  image: 'swamp-oak-tree.jpg',
+  keywords: ['swamp oak tree identification', 'swamp white oak', 'swamp chestnut oak', 'pin oak identification', 'wetland oak trees', 'swamp oak leaves'],
+},
+  {
   slug: 'trees-with-white-bark',
   title: 'Trees With White Bark — Paper Birch, Sycamore, Aspen & Complete Identification Guide',
   excerpt: 'Complete guide to trees with white bark including Paper Birch (Betula papyrifera), white birch, Sycamore, Aspen, and all white barked trees. Covers peeling bark, smooth bark, bark identification, and types of tree bark.',
