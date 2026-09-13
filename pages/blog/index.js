@@ -31,6 +31,16 @@ const posts = [
   keywords: ['hickory tree identification', 'hickory tree', 'types of hickory trees', 'black hickory'],
 },
   {
+  slug: 'lilly-pilly-tree',
+  title: 'Lilly Pilly Tree — Complete Guide to Weeping, Large & Mature Lilly Pilly Trees',
+  excerpt: 'Complete guide to Lilly Pilly trees covering weeping, large, and mature varieties. Learn how to grow, prune, and care for Lilly Pilly trees plus identification tips for all popular Australian native species.',
+  date: 'August 28, 2026',
+  readTime: '9 min read',
+  category: 'Tree Guide',
+  image: 'lilly-pilly-tree.jpg',
+  keywords: ['lilly pilly tree', 'weeping lilly pilly', 'large lilly pilly tree', 'mature lilly pilly', 'lilly pilly identification', 'australian native trees'],
+},
+  {
   slug: 'ash-tree-identification',
   title: 'Ash Tree Identification — White Ash, Green Ash, Bark & Leaf Guide',
   excerpt: 'Complete guide to ash tree identification covering White Ash, Green Ash, and other species. Learn to identify ash trees by their opposite compound leaves, diamond-patterned bark, and paddle-shaped seeds.',
