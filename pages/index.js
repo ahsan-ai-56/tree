@@ -74,22 +74,37 @@ function AdBanner() {
     if (!adRef.current) return;
     adRef.current.innerHTML = '';
 
-    const conf1 = document.createElement('script');
-    conf1.type = 'text/javascript';
-    conf1.innerHTML = `
-      atOptions = {
-        'key' : '1f78faba42fc4bd9013f27b8c835a7ae',
-        'format' : 'iframe',
-        'height' : 250,
-        'width' : 300,
-      };
-    `;
-    const src1 = document.createElement('script');
-    src1.src = '//www.highperformanceformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js';
-    src1.async = true;
+    const container = adRef.current;
 
-    adRef.current.appendChild(conf1);
-    adRef.current.appendChild(src1);
+    const loadAd = () => {
+      return new Promise((resolve) => {
+        const conf1 = document.createElement('script');
+        conf1.type = 'text/javascript';
+        conf1.innerHTML = `
+          atOptions = {
+            'key' : '1f78faba42fc4bd9013f27b8c835a7ae',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+          };
+        `;
+        const src1 = document.createElement('script');
+        src1.src = '//www.highperformanceformat.com/1f78faba42fc4bd9013f27b8c835a7ae/invoke.js';
+        src1.async = false;
+        src1.onload = resolve;
+        src1.onerror = resolve;
+
+        container.appendChild(conf1);
+        container.appendChild(src1);
+      });
+    };
+
+    // Global queue taake ek waqt mein sirf ek ad load ho (WordPress jaisa sequential)
+    if (!window.__adQueue) {
+      window.__adQueue = Promise.resolve();
+    }
+    window.__adQueue = window.__adQueue.then(loadAd);
+
   }, []);
 
   return <div ref={adRef} style={{ minHeight: '250px', minWidth: '300px' }} />;
