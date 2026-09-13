@@ -154,7 +154,6 @@ export default function Home() {
               </Link>
             </div>
                   <AdBanner /> 
-
             <div className="stats-row">
               <div className="stat-badge"><div className="num">50K+</div><div className="lbl">Tree Species</div></div>
               <div className="stat-badge"><div className="num">97%</div><div className="lbl">Accuracy Rate</div></div>
@@ -164,7 +163,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+             <AdBanner /> 
       {/* FEATURES */}
       <section className="section" style={{ background: 'var(--deep-black)' }}>
         <div className="section-inner">
@@ -186,7 +185,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+              <AdBanner /> 
       {/* HOW IT WORKS */}
       <section className="section" id="how-it-works">
         <div className="section-inner">
