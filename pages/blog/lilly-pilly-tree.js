@@ -263,7 +263,7 @@ export default function LillyPillyTree() {
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
               <img
-                src="lilly-pilly-tree1.jpg"
+                src="/lilly-pilly-tree1.jpg"
                 alt="Lilly pilly hedge showing dense screening and colorful new growth"
                 style={{ width: '100%', height: '280px', objectFit: 'cover' }}
               />
