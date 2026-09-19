@@ -195,7 +195,7 @@ export default function WoodIdentifier() {
 
             {/* IMAGE */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
-              <img src="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=900&q=80" alt="Wood grain identification showing different wood types and grain patterns" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src="/wood-identifier.jpg" alt="Wood grain identification showing different wood types and grain patterns" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
               <div style={{ background: 'var(--card-bg)', padding: '0.8rem 1.2rem' }}>
                 <p style={{ color: 'var(--gray-mid)', fontSize: '0.82rem', margin: 0 }}>🪵 Different wood species show dramatically different grain patterns, colors, and textures. Our AI wood identifier analyzes these visual characteristics to identify wood species accurately from photos — whether the wood is raw, finished, or part of a furniture piece.</p>
               </div>
@@ -220,7 +220,7 @@ export default function WoodIdentifier() {
 
             {/* IMAGE 2 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
-              <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=80" alt="Woodworking tools and wood grain showing hardwood identification" style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
+              <img src="/wood-identifier1.jpg" alt="Woodworking tools and wood grain showing hardwood identification" style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
               <div style={{ background: 'var(--card-bg)', padding: '0.8rem 1.2rem' }}>
                 <p style={{ color: 'var(--gray-mid)', fontSize: '0.82rem', margin: 0 }}>🪚 Wood identification is essential for woodworking — knowing the species determines the correct tools, techniques, and finishes to use. Janka hardness, grain direction, and working properties all vary significantly between species.</p>
               </div>
@@ -272,7 +272,7 @@ export default function WoodIdentifier() {
 
             {/* IMAGE 3 */}
             <div style={{ margin: '2rem 0', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--card-border)' }}>
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80" alt="Different wood types showing grain patterns for wood identification" style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
+              <img src="/wood-identifier2.jpg" alt="Different wood types showing grain patterns for wood identification" style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
               <div style={{ background: 'var(--card-bg)', padding: '0.8rem 1.2rem' }}>
                 <p style={{ color: 'var(--gray-mid)', fontSize: '0.82rem', margin: 0 }}>🌳 From source tree to finished lumber — our wood identifier bridges the gap between tree species and wood products. Identify any wood from a photo and learn about its source tree, working properties, and ideal applications.</p>
               </div>
